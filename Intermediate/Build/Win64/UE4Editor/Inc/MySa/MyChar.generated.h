@@ -13,8 +13,92 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MYSA_MyChar_generated_h
 
-#define MySA_Source_MySa_MyChar_h_15_RPC_WRAPPERS
-#define MySA_Source_MySa_MyChar_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define MySA_Source_MySa_MyChar_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execIsEnd) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=this->IsEnd(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetPoints) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=this->GetPoints(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execToGround) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->ToGround(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execDash) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->Dash(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execJump) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->Jump(); \
+		P_NATIVE_END; \
+	}
+
+
+#define MySA_Source_MySa_MyChar_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execIsEnd) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=this->IsEnd(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetPoints) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=this->GetPoints(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execToGround) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->ToGround(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execDash) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->Dash(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execJump) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->Jump(); \
+		P_NATIVE_END; \
+	}
+
+
 #define MySA_Source_MySa_MyChar_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyChar(); \
@@ -64,8 +148,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyChar); \
 	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(AMyChar, Camera); } \
 	FORCEINLINE static uint32 __PPO__Iddle() { return STRUCT_OFFSET(AMyChar, Iddle); } \
 	FORCEINLINE static uint32 __PPO__Running() { return STRUCT_OFFSET(AMyChar, Running); } \
-	FORCEINLINE static uint32 __PPO__Jumping() { return STRUCT_OFFSET(AMyChar, Jumping); } \
-	FORCEINLINE static uint32 __PPO__MyHUD() { return STRUCT_OFFSET(AMyChar, MyHUD); }
+	FORCEINLINE static uint32 __PPO__Jumping() { return STRUCT_OFFSET(AMyChar, Jumping); }
 
 
 #define MySA_Source_MySa_MyChar_h_12_PROLOG

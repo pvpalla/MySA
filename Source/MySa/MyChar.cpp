@@ -35,9 +35,9 @@ AMyChar::AMyChar() {
 	Camera->OrthoWidth = 500.0f;
 	Camera->SetupAttachment(CameraBoom);
 
-	CanDash = true;
-
-	
+	CanDash = false;
+	IsGameOver = false;
+	CanJump = false;
 
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
 
@@ -112,6 +112,8 @@ void AMyChar::Move() {
 			GetSprite()->SetFlipbook(Iddle);
 		}
 	}*/
+	CanJump = true;
+	CanDash = true;
 	GetSprite()->SetFlipbook(Running);
 	MyRun = 0.3f;
 
@@ -123,7 +125,7 @@ void AMyChar::Dash()
 	if (CanDash) {
 		LaunchCharacter(FVector(1000.0f, 0.0f, 10.0f), false, false);
 		CanDash = false;
-		GetWorldTimerManager().SetTimer(DashTimer, this, &AMyChar::StopDash, 0.30f, false);
+		GetWorldTimerManager().SetTimer(DashTimer, this, &AMyChar::StopDash, 0.10f, false);
 	}
 }
 
@@ -143,11 +145,12 @@ void AMyChar::ToGround()
 }
 
 void AMyChar::Jump() {
-	Super::Jump();
+	if (CanJump) {
+		Super::Jump();
 
-	GetSprite()->SetFlipbook(Jumping);
-	GetSprite()->SetLooping(false);
-	
+		GetSprite()->SetFlipbook(Jumping);
+		GetSprite()->SetLooping(false);
+	}
 
 	//GetSprite()->OnFinishedPlaying();
 }
@@ -159,9 +162,29 @@ void AMyChar::IncraseRun() {
 			Offset.Y += 0.2f;
 			CameraBoom->SocketOffset = Offset;
 		}
-		Camera->OrthoWidth = Camera->OrthoWidth + 0.1f;
+		Camera->OrthoWidth = Camera->OrthoWidth + 0.3f;
 	}
 	if (MyRun < 1) {
 		MyRun += 0.05;
 	}
+}
+
+int AMyChar::GetPoints()
+{
+	return Points;
+}
+
+void AMyChar::AddPoints(int NewPoints)
+{
+	Points += NewPoints;
+}
+
+void AMyChar::EndGame()
+{
+	IsGameOver = true;
+}
+
+bool AMyChar::IsEnd()
+{
+	return IsGameOver;
 }

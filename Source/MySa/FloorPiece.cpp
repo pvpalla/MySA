@@ -9,6 +9,7 @@
 #include "Runtime/Engine/Public/TimerManager.h"
 #include "Engine/World.h"
 #include "Enemy.h"
+#include "Collectible.h"
 
 
 // Sets default values
@@ -131,24 +132,38 @@ void AFloorPiece::SpawnObstacle()
 
 	UWorld* World = GetWorld();
 	FActorSpawnParameters SpawnParameters;
-	if (World && Obstacle != nullptr) {
-		for (int i = 0; i < EnemyAmount; i++)
-		{
+	if (World) {
+		if(Obstacle != nullptr) {
+			for (int i = 0; i < EnemyAmount; i++)
+			{
+
+				int X = FMath::RandRange(GetActorLocation().X, GetActorLocation().X + 1280);
+				int Z = FMath::RandRange(-440, -290);
+
+				FVector Location(X, 0.0f, Z);
+
+				UE_LOG(LogTemp, Warning, TEXT("X = %d / %f"), X, Location.X);
+				UE_LOG(LogTemp, Warning, TEXT("Z = %d / %f"), Z, Location.Z);
+				World->SpawnActor<AEnemy>(Obstacle, Location, FRotator::ZeroRotator, SpawnParameters);
+			}
+			if (EnemyAmount <= 15) {
+				EnemyAmount++;
+			}
+		}
+		if (Collectible != nullptr) {
 
 			int X = FMath::RandRange(GetActorLocation().X, GetActorLocation().X + 1280);
-			int Z = FMath::RandRange(-420, -220);
+			int Z = FMath::RandRange(-440, -390);
 
 			FVector Location(X, 0.0f, Z);
 
-			UE_LOG(LogTemp, Warning, TEXT("X = %d / %f"), X, Location.X);
-			UE_LOG(LogTemp, Warning, TEXT("Z = %d / %f"), Z, Location.Z);
-			World->SpawnActor<AEnemy>(Obstacle, Location, FRotator::ZeroRotator, SpawnParameters);
-		}
-	}
-	if (EnemyAmount <= 15) {
-		EnemyAmount++;
-	}
+			World->SpawnActor<ACollectible>(Collectible, Location, FRotator::ZeroRotator, SpawnParameters);
 
+
+
+		}
+
+	}
 }
 
 void AFloorPiece::MoveAndChange()

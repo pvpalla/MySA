@@ -24,8 +24,9 @@ void EmptyLinkFunctionForGeneratedCodeFloorPiece() {}
 	MYSA_API UClass* Z_Construct_UClass_AFloorPiece_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_MySa();
-	MYSA_API UClass* Z_Construct_UClass_AEnemy_NoRegister();
+	MYSA_API UClass* Z_Construct_UClass_ACollectible_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	MYSA_API UClass* Z_Construct_UClass_AEnemy_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UArrowComponent_NoRegister();
 	PAPER2D_API UClass* Z_Construct_UClass_UPaperTileMapComponent_NoRegister();
@@ -116,6 +117,7 @@ void EmptyLinkFunctionForGeneratedCodeFloorPiece() {}
 				OuterClass->LinkChild(Z_Construct_UFunction_AFloorPiece_GetNextTileTransform());
 				OuterClass->LinkChild(Z_Construct_UFunction_AFloorPiece_OnOverlapBegin());
 
+				UProperty* NewProp_Collectible = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Collectible"), RF_Public|RF_Transient|RF_MarkAsNative) UClassProperty(CPP_PROPERTY_BASE(Collectible, AFloorPiece), 0x0044000000000001, Z_Construct_UClass_ACollectible_NoRegister(), Z_Construct_UClass_UClass());
 				UProperty* NewProp_Obstacle = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Obstacle"), RF_Public|RF_Transient|RF_MarkAsNative) UClassProperty(CPP_PROPERTY_BASE(Obstacle, AFloorPiece), 0x0044000000000001, Z_Construct_UClass_AEnemy_NoRegister(), Z_Construct_UClass_UClass());
 				UProperty* NewProp_NextPiece = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("NextPiece"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(NextPiece, AFloorPiece), 0x0040000000000001, Z_Construct_UClass_AFloorPiece_NoRegister());
 				UProperty* NewProp_CollisionComp = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("CollisionComp"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(CollisionComp, AFloorPiece), 0x0040000000080009, Z_Construct_UClass_UBoxComponent_NoRegister());
@@ -130,6 +132,8 @@ void EmptyLinkFunctionForGeneratedCodeFloorPiece() {}
 				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("FloorPiece.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("FloorPiece.h"));
+				MetaData->SetValue(NewProp_Collectible, TEXT("Category"), TEXT("NotObstacle"));
+				MetaData->SetValue(NewProp_Collectible, TEXT("ModuleRelativePath"), TEXT("FloorPiece.h"));
 				MetaData->SetValue(NewProp_Obstacle, TEXT("Category"), TEXT("Obstacle"));
 				MetaData->SetValue(NewProp_Obstacle, TEXT("ModuleRelativePath"), TEXT("FloorPiece.h"));
 				MetaData->SetValue(NewProp_NextPiece, TEXT("Category"), TEXT("NextTile"));
@@ -149,7 +153,7 @@ void EmptyLinkFunctionForGeneratedCodeFloorPiece() {}
 		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFloorPiece, 4242243485);
+	IMPLEMENT_CLASS(AFloorPiece, 445836263);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AFloorPiece(Z_Construct_UClass_AFloorPiece, &AFloorPiece::StaticClass, TEXT("/Script/MySa"), TEXT("AFloorPiece"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AFloorPiece);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

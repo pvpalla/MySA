@@ -18,11 +18,20 @@ protected:
 
 	virtual void BeginPlay() override;
 
-	virtual void Jump() override;
-
 
 public:
 	AMyChar();
+
+	UFUNCTION(BlueprintCallable, Category = "Mobility")
+		virtual void Jump() override;
+
+
+	UFUNCTION(BlueprintCallable, Category = "Mobility")
+		void Dash();
+
+
+	UFUNCTION(BlueprintCallable, Category = "Mobility")
+		void ToGround();
 
 	UPROPERTY(EditAnywhere, Category = "MovCamera")
 		bool Mov;
@@ -33,7 +42,21 @@ public:
 
 	void IncraseRun();
 
+	UFUNCTION(BlueprintCallable, Category = "Points")
+		int GetPoints();
+
+	void AddPoints(int NewPoints);
+
+	void EndGame();
+
+	UFUNCTION(BlueprintCallable, Category = "Points")
+		bool IsEnd();
+
 private:
+
+	bool IsGameOver;
+
+	int Points;
 
 	float CameraHeight;
 
@@ -53,9 +76,6 @@ private:
 	UPROPERTY(EditAnywhere)
 		class UPaperFlipbook* Jumping;
 
-	UPROPERTY(EditAnywhere)
-		TSubclassOf<class UUserWidget> MyHUD;
-
 	void Move();
 
 	float MyRun = 0;
@@ -66,11 +86,10 @@ private:
 
 	FTimerHandle DashTimer;
 
-	void Dash();
-
 	void StopDash();
 
 	bool CanDash;
 
-	void ToGround();
+	bool CanJump;
+
 };

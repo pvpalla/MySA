@@ -116,7 +116,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFloorPiece); \
 	FORCEINLINE static uint32 __PPO__ArrowComp() { return STRUCT_OFFSET(AFloorPiece, ArrowComp); } \
 	FORCEINLINE static uint32 __PPO__CollisionComp() { return STRUCT_OFFSET(AFloorPiece, CollisionComp); } \
 	FORCEINLINE static uint32 __PPO__NextPiece() { return STRUCT_OFFSET(AFloorPiece, NextPiece); } \
-	FORCEINLINE static uint32 __PPO__Obstacle() { return STRUCT_OFFSET(AFloorPiece, Obstacle); }
+	FORCEINLINE static uint32 __PPO__Obstacle() { return STRUCT_OFFSET(AFloorPiece, Obstacle); } \
+	FORCEINLINE static uint32 __PPO__Collectible() { return STRUCT_OFFSET(AFloorPiece, Collectible); }
 
 
 #define MySA_Source_MySa_FloorPiece_h_9_PROLOG

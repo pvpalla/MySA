@@ -72,6 +72,8 @@ private:
 	UPROPERTY(EditAnywhere, Category = "Obstacle")
 		TSubclassOf<class AEnemy> Obstacle;
 
+	UPROPERTY(EditAnywhere, Category = "NotObstacle")
+		TSubclassOf<class ACollectible> Collectible;
 	//UPROPERTY(EditAnywhere, Category = "NextTile")
 
 

@@ -20,8 +20,8 @@ void EmptyLinkFunctionForGeneratedCodeMySa_init() {}
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), nullptr, FName(TEXT("/Script/MySa")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0xB1FF85E4;
-			Guid.B = 0x387AA634;
+			Guid.A = 0x69479507;
+			Guid.B = 0x40E44A51;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);
