@@ -8,6 +8,7 @@
 #include "FloorManager.h"
 #include "Runtime/Engine/Public/TimerManager.h"
 #include "Engine/World.h"
+#include "Enemy.h"
 
 
 // Sets default values
@@ -32,6 +33,9 @@ AFloorPiece::AFloorPiece()
 	ArrowComp->SetRelativeLocation(FVector(1280.0f, 0.0f, 0.0f));
 	
 	ArrowComp->SetupAttachment(RootComponent);
+
+	EnemyAmount = 4;
+
 }
 
 // Called when the game starts or when spawned
@@ -121,6 +125,32 @@ void AFloorPiece::SelfDestroy()
 	Destroy();
 }
 
+void AFloorPiece::SpawnObstacle()
+{
+
+
+	UWorld* World = GetWorld();
+	FActorSpawnParameters SpawnParameters;
+	if (World && Obstacle != nullptr) {
+		for (int i = 0; i < EnemyAmount; i++)
+		{
+
+			int X = FMath::RandRange(GetActorLocation().X, GetActorLocation().X + 1280);
+			int Z = FMath::RandRange(-420, -220);
+
+			FVector Location(X, 0.0f, Z);
+
+			UE_LOG(LogTemp, Warning, TEXT("X = %d / %f"), X, Location.X);
+			UE_LOG(LogTemp, Warning, TEXT("Z = %d / %f"), Z, Location.Z);
+			World->SpawnActor<AEnemy>(Obstacle, Location, FRotator::ZeroRotator, SpawnParameters);
+		}
+	}
+	if (EnemyAmount <= 15) {
+		EnemyAmount++;
+	}
+
+}
+
 void AFloorPiece::MoveAndChange()
 {
 
@@ -134,6 +164,8 @@ void AFloorPiece::MoveAndChange()
 	RootComponent->SetWorldLocation(Manager->GetNextTransform().GetLocation());
 	Manager->SetNextTransformLocation(ArrowComp->GetComponentLocation());
 
+
+	SpawnObstacle();
 
 
 }

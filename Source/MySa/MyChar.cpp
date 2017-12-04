@@ -35,6 +35,8 @@ AMyChar::AMyChar() {
 	Camera->OrthoWidth = 500.0f;
 	Camera->SetupAttachment(CameraBoom);
 
+	CanDash = true;
+
 	
 
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
@@ -49,6 +51,7 @@ void AMyChar::BeginPlay() {
 		GetSprite()->SetFlipbook(Iddle);
 	}
 	GetWorldTimerManager().SetTimer(StartRun, this, &AMyChar::Move, 3.0f, false);
+	
 }
 
 void AMyChar::Tick(float DeltaTime)
@@ -87,6 +90,8 @@ void AMyChar::SetupPlayerInputComponent(UInputComponent * PlayerInputComponent)
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 //	PlayerInputComponent->BindAxis("Move", this, &AMyChar::Move);
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AMyChar::Jump);
+	PlayerInputComponent->BindAction("Dash", IE_Pressed, this, &AMyChar::Dash);
+	PlayerInputComponent->BindAction("ToGround", IE_Pressed, this, &AMyChar::ToGround);
 
 }
 
@@ -112,6 +117,31 @@ void AMyChar::Move() {
 
 
 }
+void AMyChar::Dash()
+{
+
+	if (CanDash) {
+		LaunchCharacter(FVector(1000.0f, 0.0f, 10.0f), false, false);
+		CanDash = false;
+		GetWorldTimerManager().SetTimer(DashTimer, this, &AMyChar::StopDash, 0.30f, false);
+	}
+}
+
+void AMyChar::StopDash()
+{
+	UE_LOG(LogTemp, Warning, TEXT("DASH STOP!"));
+
+	if (!GetCharacterMovement()->IsMovingOnGround()) {
+		LaunchCharacter(FVector(-1000.0f, 0.0f, 10.0f), false, false);
+	}
+	CanDash = true;
+}
+
+void AMyChar::ToGround()
+{
+	LaunchCharacter(FVector(.0f, 0.0f, -1000.0f), false, false);
+}
+
 void AMyChar::Jump() {
 	Super::Jump();
 

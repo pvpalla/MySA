@@ -24,13 +24,18 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 private:
+
+	FVector InitialLocation;
+
+	int Mult;
+
 	void Move();
 
 	UPROPERTY(EditAnywhere)
-		class UPaperFlipbook* Iddle;
+		class UPaperSpriteComponent* Iddle;
 
 	UPROPERTY(EditAnywhere)
-		class UCapsuleComponent* CollisionComp;
+		class UBoxComponent* CollisionComp;
 
 	UFUNCTION()
 		void OnOverlapBegin(UPrimitiveComponent * OverlappedComp, AActor * OtherActor,

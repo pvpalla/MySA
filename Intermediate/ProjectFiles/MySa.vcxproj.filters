@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\MySa.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{91992F1F-712B-445C-83F7-80E82D5C320E}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\MySa.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\MySaEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{0185B87F-03B4-4DCC-BBD7-4AE1A58043E9}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\MySa">
+			<UniqueIdentifier>{1C10DFB9-CD07-4762-B32B-06E39ED28C8E}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\MySa\Enemy.cpp">
+			<Filter>Source\MySa</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MySa\Enemy.h">
+			<Filter>Source\MySa</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\MySa\FloorManager.cpp">
+			<Filter>Source\MySa</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MySa\FloorManager.h">
+			<Filter>Source\MySa</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\MySa\FloorPiece.cpp">
+			<Filter>Source\MySa</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MySa\FloorPiece.h">
+			<Filter>Source\MySa</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\MySa\MyChar.cpp">
+			<Filter>Source\MySa</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MySa\MyChar.h">
+			<Filter>Source\MySa</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\MySa\MySa.Build.cs">
+			<Filter>Source\MySa</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\MySa\MySa.cpp">
+			<Filter>Source\MySa</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MySa\MySa.h">
+			<Filter>Source\MySa</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\MySa\MySaGameModeBase.cpp">
+			<Filter>Source\MySa</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MySa\MySaGameModeBase.h">
+			<Filter>Source\MySa</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\MySa\MyStructPirata.cpp">
+			<Filter>Source\MySa</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MySa\MyStructPirata.h">
+			<Filter>Source\MySa</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

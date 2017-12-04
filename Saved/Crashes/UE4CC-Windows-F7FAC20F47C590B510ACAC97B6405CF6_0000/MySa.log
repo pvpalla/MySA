@@ -1,0 +1,524 @@
+﻿Log file open, 12/03/17 19:33:28
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: MySa
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-321634963) SRandInit(-321634963).
+LogTaskGraph: Started task graph with 5 named threads and 26 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.309731
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: D:/Trabalho/Unreal/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.03-21.33.29:733][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.03-21.33.29:733][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.03-21.33.29:744][  0]LogInit: Computer: DESKTOP-UNL8M6G
+[2017.12.03-21.33.29:744][  0]LogInit: User: Marcelo
+[2017.12.03-21.33.29:744][  0]LogInit: CPU Page size=4096, Cores=8
+[2017.12.03-21.33.29:744][  0]LogInit: High frequency timer resolution =3.808589 MHz
+[2017.12.03-21.33.29:745][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.12.03-21.33.29:745][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.03-21.33.29:745][  0]LogMemory: Process Physical Memory: 282.82 MB used, 282.82 MB peak
+[2017.12.03-21.33.29:745][  0]LogMemory: Process Virtual Memory: 281.31 MB used, 281.31 MB peak
+[2017.12.03-21.33.29:745][  0]LogMemory: Physical Memory: 6546.89 MB used,  9783.91 MB free, 16330.80 MB total
+[2017.12.03-21.33.29:745][  0]LogMemory: Virtual Memory: 718.83 MB used,  9783.91 MB free, 134217728.00 MB total
+[2017.12.03-21.33.29:869][  0]LogInit: Using OS detected language (en-US).
+[2017.12.03-21.33.29:870][  0]LogInit: Using OS detected locale (en-US).
+[2017.12.03-21.33.29:872][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.12.03-21.33.30:461][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.03-21.33.30:506][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.12.03-21.33.30:506][  0]LogD3D11RHI:       8096/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.12.03-21.33.30:507][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.03-21.33.30:507][  0]LogD3D11RHI:       0/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.03-21.33.30:507][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.03-21.33.30:515][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.03-21.33.30:515][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.03-21.33.30:515][  0]LogWindows: EnumDisplayDevices:
+[2017.12.03-21.33.30:516][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.12.03-21.33.30:516][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.12.03-21.33.30:516][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.12.03-21.33.30:516][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.12.03-21.33.30:516][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.12.03-21.33.30:516][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.12.03-21.33.30:516][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.12.03-21.33.30:516][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.12.03-21.33.30:516][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.03-21.33.30:549][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.03-21.33.30:593][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.03-21.33.30:641][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (C:/Users/Marcelo/Desktop/Paulo/MySA/Intermediate/Shaders/WorkingDirectory/12944/).
+[2017.12.03-21.33.30:642][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Marcelo/AppData/Local/Temp/UnrealShaderWorkingDir/277C1EF5458D29606348CD8190C45E74/'.
+[2017.12.03-21.33.30:642][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.03-21.33.31:402][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.03-21.33.31:443][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.03-21.33.31:482][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.03-21.33.31:522][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.03-21.33.31:562][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.03-21.33.31:602][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.03-21.33.31:642][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.03-21.33.31:683][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.03-21.33.31:717][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.03-21.33.31:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.03-21.33.31:797][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.03-21.33.31:837][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.03-21.33.31:876][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.03-21.33.31:916][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.03-21.33.31:955][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.03-21.33.32:035][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.03-21.33.32:035][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.03-21.33.32:063][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.03-21.33.32:139][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.03-21.33.32:164][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.03-21.33.32:203][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.03-21.33.32:241][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.03-21.33.32:281][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.03-21.33.32:320][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.03-21.33.32:320][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.03-21.33.32:658][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.03-21.33.32:745][  0]LogDerivedDataCache: Loaded boot cache 0.09s 93MB C:/Users/Marcelo/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.03-21.33.32:745][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Marcelo/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.12.03-21.33.32:745][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Marcelo/Desktop/Paulo/MySA/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.03-21.33.32:745][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.03-21.33.32:745][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Marcelo/Desktop/Paulo/MySA/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.03-21.33.32:745][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.03-21.33.32:762][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.03-21.33.32:774][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Marcelo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.03-21.33.32:784][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.03-21.33.32:785][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.03-21.33.32:785][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.03-21.33.32:785][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.03-21.33.33:031][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
+[2017.12.03-21.33.33:135][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.03-21.33.33:246][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.03-21.33.33:464][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.03-21.33.33:493][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.03-21.33.33:493][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.03-21.33.33:493][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.03-21.33.33:493][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.03-21.33.33:493][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.03-21.33.33:766][  0]LogNetVersion: MySa , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2735720228)
+[2017.12.03-21.33.33:943][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.051286 seconds
+[2017.12.03-21.33.33:950][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.12.03-21.33.33:950][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.12.03-21.33.33:950][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.03-21.33.33:994][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.03-21.33.35:920][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.03-21.33.35:951][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.03-21.33.36:443][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.03-21.33.36:727][  0]SourceControl: Source control is disabled
+[2017.12.03-21.33.36:727][  0]SourceControl: Source control is disabled
+[2017.12.03-21.33.36:760][  0]SourceControl: Source control is disabled
+[2017.12.03-21.33.36:793][  0]SourceControl: Source control is disabled
+[2017.12.03-21.33.37:188][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.03-21.33.37:353][  0]LogOcInput: OculusInput pre-init called
+[2017.12.03-21.33.37:536][  0]LogEngine: Initializing Engine...
+[2017.12.03-21.33.37:537][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.03-21.33.37:718][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.03-21.33.37:718][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.03-21.33.37:806][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.03-21.33.37:812][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.03-21.33.37:828][  0]LogInit: FAudioDevice initialized.
+[2017.12.03-21.33.37:916][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/Marcelo/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.03-21.33.37:933][  0]LogInit: Texture streaming: Enabled
+[2017.12.03-21.33.38:011][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.03-21.33.38:011][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={B2C24316-4475-4C5C-A781-3592705C78B4}
+[2017.12.03-21.33.38:164][  0]LogInit: Transaction tracking system initialized
+[2017.12.03-21.33.38:377][  0]BlueprintLog: New page: Editor Load
+[2017.12.03-21.33.38:988][  0]LocalizationService: Localization service is disabled
+[2017.12.03-21.33.39:464][  0]LogConsoleResponse: Display: 
+[2017.12.03-21.33.39:592][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.03-21.33.39:592][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.03-21.33.39:592][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.03-21.33.40:318][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcelo/Desktop/Paulo/MySA/Content/' took 0.01s
+[2017.12.03-21.33.40:318][  0]SourceControl: Source control is disabled
+[2017.12.03-21.33.40:318][  0]Cmd: MAP LOAD FILE="C:/Users/Marcelo/Desktop/Paulo/MySA/Content/Maps/MainGame.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.03-21.33.40:319][  0]LightingResults: New page: Lighting Build
+[2017.12.03-21.33.40:348][  0]MapCheck: New page: Map Check
+[2017.12.03-21.33.40:348][  0]LightingResults: New page: Lighting Build
+[2017.12.03-21.33.40:408][  0]LogProperty: Warning: Serialized Class /Script/Engine.BlueprintGeneratedClass for a property of Class /Script/MySa.FloorPiece. Reference will be nullptred.
+    Property = ObjectProperty /Script/MySa.FloorPiece:NextPiece
+    Item = BlueprintGeneratedClass /Game/Blueprints/FloorPieces/ObstacleFloor3.ObstacleFloor3_C
+[2017.12.03-21.33.40:412][  0]LogProperty: Warning: Serialized Class /Script/Engine.BlueprintGeneratedClass for a property of Class /Script/MySa.FloorPiece. Reference will be nullptred.
+    Property = ObjectProperty /Script/MySa.FloorPiece:NextPiece
+    Item = BlueprintGeneratedClass /Game/Blueprints/FloorPieces/ObstacleFloor2.ObstacleFloor2_C
+[2017.12.03-21.33.40:451][  0]LogAIModule: Creating AISystem for world MainGame
+[2017.12.03-21.33.40:452][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.03-21.33.40:477][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.03-21.33.40:516][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 38.301ms to complete.
+[2017.12.03-21.33.40:516][  0]LogFileHelpers: Loading map 'MainGame' took 0.198
+[2017.12.03-21.33.40:640][  0]LogCollectionManager: Loaded 0 collections in 0.000966 seconds
+[2017.12.03-21.33.40:704][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcelo/Desktop/Paulo/MySA/Saved/Collections/' took 0.01s
+[2017.12.03-21.33.40:704][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcelo/Desktop/Paulo/MySA/Content/Developers/Marcelo/Collections/' took 0.01s
+[2017.12.03-21.33.40:704][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcelo/Desktop/Paulo/MySA/Content/Collections/' took 0.01s
+[2017.12.03-21.33.40:705][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.12.03-21.33.40:715][  0]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 2391 classes and 502 folders.
+[2017.12.03-21.33.40:761][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0021 seconds. Added 0 classes and 0 folders.
+[2017.12.03-21.33.40:796][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0021 seconds. Added 0 classes and 0 folders.
+[2017.12.03-21.33.40:830][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0021 seconds. Added 1 classes and 2 folders.
+[2017.12.03-21.33.40:849][  0]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.03-21.33.40:851][  0]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.03-21.33.40:856][  0]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.03-21.33.40:943][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.12.03-21.33.41:101][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0021 seconds. Added 1 classes and 2 folders.
+[2017.12.03-21.33.41:101][  0]LogLoad: (Engine Initialization) Total time: 13.20 seconds
+[2017.12.03-21.33.41:101][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.03-21.33.41:102][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.12.03-21.33.41:457][  0]LogAssetRegistry: Asset discovery search completed in 8.4475 seconds
+[2017.12.03-21.33.41:459][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.12.03-21.33.41:459][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000053 seconds (updated 0 objects)
+[2017.12.03-21.33.41:461][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.03-21.33.41:493][  0]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.03-21.33.42:443][  3]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.03-21.33.56:435][939]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.03-21.33.56:447][939]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainGame" FILE="C:/Users/Marcelo/Desktop/Paulo/MySA/Content/Maps/MainGame.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.03-21.33.56:511][939]LogSavePackage: Save=28.39ms
+[2017.12.03-21.33.56:511][939]LogSavePackage: Moving 'C:/Users/Marcelo/Desktop/Paulo/MySA/Saved/MainGameE0F3E9C241092E3093F4B48E0CA0A8D2.tmp' to 'C:/Users/Marcelo/Desktop/Paulo/MySA/Content/Maps/MainGame.umap'
+[2017.12.03-21.33.56:513][939]LogSavePackage: Display: Finished SavePackage C:/Users/Marcelo/Desktop/Paulo/MySA/Content/Maps/MainGame.umap
+[2017.12.03-21.33.56:532][939]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainGame_BuiltData" FILE="C:/Users/Marcelo/Desktop/Paulo/MySA/Content/Maps/MainGame_BuiltData.uasset" SILENT=true
+[2017.12.03-21.33.56:543][939]LogSavePackage: Save=4.52ms
+[2017.12.03-21.33.56:543][939]LogSavePackage: Moving 'C:/Users/Marcelo/Desktop/Paulo/MySA/Saved/MainGame_BuiltData14252E1D42DEA8A1F2D0A3A8043D5109.tmp' to 'C:/Users/Marcelo/Desktop/Paulo/MySA/Content/Maps/MainGame_BuiltData.uasset'
+[2017.12.03-21.33.56:545][939]LogSavePackage: Display: Finished SavePackage C:/Users/Marcelo/Desktop/Paulo/MySA/Content/Maps/MainGame_BuiltData.uasset
+[2017.12.03-21.34.00:289][253]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0024 seconds. Added 113 classes and 0 folders.
+[2017.12.03-21.34.00:898][253]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.03-21.34.09:933][112]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.03-21.34.19:012][884]LogActor: Warning: EnemyBP_C /Engine/Transient.World_1:PersistentLevel.EnemyBP_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.12.03-21.34.19:066][885]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:1).
+[2017.12.03-21.34.20:300][ 30]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.03-21.36.40:576][131]Candidate modules for hot reload:
+[2017.12.03-21.36.40:576][131]  MySa
+[2017.12.03-21.36.40:576][131]Launching UnrealBuildTool... [D:/Trabalho/Unreal/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe MySa -ModuleWithSuffix MySa 1266 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcelo/Desktop/Paulo/MySA/MySa.uproject" ]
+[2017.12.03-21.36.40:578][131]Warning: Starting HotReload took  0.0s.
+[2017.12.03-21.36.46:537][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainGame" FILE="C:/Users/Marcelo/Desktop/Paulo/MySA/Content/Maps/MainGame.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.12.03-21.36.46:607][495]LogSavePackage: Save=29.38ms
+[2017.12.03-21.36.46:607][495]LogSavePackage: Moving 'C:/Users/Marcelo/Desktop/Paulo/MySA/Saved/MainGame1DBB20534B61D266FA840FA24B6724CE.tmp' to 'C:/Users/Marcelo/Desktop/Paulo/MySA/Content/Maps/MainGame.umap'
+[2017.12.03-21.36.46:609][495]LogSavePackage: Display: Finished SavePackage C:/Users/Marcelo/Desktop/Paulo/MySA/Content/Maps/MainGame.umap
+[2017.12.03-21.36.46:633][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainGame_BuiltData" FILE="C:/Users/Marcelo/Desktop/Paulo/MySA/Content/Maps/MainGame_BuiltData.uasset" SILENT=true
+[2017.12.03-21.36.46:639][495]LogSavePackage: Save=3.98ms
+[2017.12.03-21.36.46:639][495]LogSavePackage: Moving 'C:/Users/Marcelo/Desktop/Paulo/MySA/Saved/MainGame_BuiltData0F48C17B41539F0E0057B5B21160B285.tmp' to 'C:/Users/Marcelo/Desktop/Paulo/MySA/Content/Maps/MainGame_BuiltData.uasset'
+[2017.12.03-21.36.46:641][495]LogSavePackage: Display: Finished SavePackage C:/Users/Marcelo/Desktop/Paulo/MySA/Content/Maps/MainGame_BuiltData.uasset
+[2017.12.03-21.36.55:282][ 35]CompilerResultsLog: New page: Compilation - Dec 3, 2017, 5:36:55 PM
+[2017.12.03-21.36.55:282][ 35]CompilerResultsLog: Compiling game modules for hot reload
+[2017.12.03-21.36.55:282][ 35]CompilerResultsLog: Parsing headers for MySaEditor
+[2017.12.03-21.36.55:282][ 35]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Marcelo\Desktop\Paulo\MySA\MySa.uproject" "C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\MySaEditor\Development\MySaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.12.03-21.36.55:282][ 35]CompilerResultsLog: Reflection code generated for MySaEditor in 7.894172 seconds
+[2017.12.03-21.36.55:283][ 35]CompilerResultsLog: Performing 5 actions (12 in parallel)
+[2017.12.03-21.36.55:283][ 35]CompilerResultsLog: Enemy.gen.cpp
+[2017.12.03-21.36.55:283][ 35]CompilerResultsLog: Enemy.cpp
+[2017.12.03-21.36.55:283][ 35]CompilerResultsLog: MySa.init.gen.cpp
+[2017.12.03-21.36.55:283][ 35]CompilerResultsLog: [4/5] Link UE4Editor-MySa-1266.dll
+[2017.12.03-21.36.55:283][ 35]CompilerResultsLog: [5/5] Link UE4Editor-MySa-1266.lib
+[2017.12.03-21.36.55:283][ 35]CompilerResultsLog:    Creating library C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MySa-1266.lib and object C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MySa-1266.exp
+[2017.12.03-21.36.55:283][ 35]CompilerResultsLog:    Creating library C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MySa-1266.suppressed.lib and object C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MySa-1266.suppressed.exp
+[2017.12.03-21.36.55:283][ 35]CompilerResultsLog: Total build time: 14.51 seconds (Local executor: 2.85 seconds)
+[2017.12.03-21.36.55:283][ 35]LogMainFrame: MainFrame: Module compiling took 14.710 seconds
+[2017.12.03-21.36.55:368][ 35]LogClass: Could not find existing class Enemy in package /Script/MySa for HotReload, assuming new class
+[2017.12.03-21.36.55:368][ 35]LogClass: Function OnOverlapBegin is new.
+[2017.12.03-21.36.55:377][ 35]LogHotReload: Re-instancing Enemy after hot-reload.
+[2017.12.03-21.36.55:381][ 35]LogProperty: Warning: Serialized Class /Script/Engine.CapsuleComponent for a property of Class /Script/Engine.BoxComponent. Reference will be nullptred.
+    Property = ObjectProperty /Script/MySa.Enemy:CollisionComp
+    Item = CapsuleComponent /Engine/Transient.Default__EnemyBP_C:CollisionComp
+[2017.12.03-21.36.55:391][ 35]LogActor: Warning: EnemyBP_C /Engine/Transient.World_1:PersistentLevel.EnemyBP_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.12.03-21.36.55:391][ 35]LogProperty: Warning: Serialized Class /Script/Engine.CapsuleComponent for a property of Class /Script/Engine.BoxComponent. Reference will be nullptred.
+    Property = ObjectProperty /Script/MySa.Enemy:CollisionComp
+    Item = CapsuleComponent /Engine/Transient.World_1:PersistentLevel.REINST_EnemyBP_C_0.CollisionComp
+[2017.12.03-21.36.55:607][ 35]LogHotReload: Re-instancing FloorPiece after hot-reload.
+[2017.12.03-21.36.55:707][ 35]LogHotReload: Re-instancing MyChar after hot-reload.
+[2017.12.03-21.36.55:932][ 35]LogContentBrowser: Native class hierarchy updated for 'MySa' in 0.0020 seconds. Added 5 classes and 2 folders.
+[2017.12.03-21.36.55:934][ 35]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2017.12.03-21.36.56:275][ 35]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 2393 classes and 506 folders.
+[2017.12.03-21.36.56:275][ 35]Display: HotReload took 15.7s.
+[2017.12.03-21.36.59:727][219]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/EnemyBP" FILE="C:/Users/Marcelo/Desktop/Paulo/MySA/Content/Blueprints/EnemyBP.uasset" SILENT=true
+[2017.12.03-21.36.59:744][219]LogSavePackage: Save=14.36ms
+[2017.12.03-21.36.59:744][219]LogSavePackage: Moving 'C:/Users/Marcelo/Desktop/Paulo/MySA/Saved/EnemyBPB5832BD94A2F30D9A291C8B526D3FBF8.tmp' to 'C:/Users/Marcelo/Desktop/Paulo/MySA/Content/Blueprints/EnemyBP.uasset'
+[2017.12.03-21.36.59:747][219]LogSavePackage: Display: Finished SavePackage C:/Users/Marcelo/Desktop/Paulo/MySA/Content/Blueprints/EnemyBP.uasset
+[2017.12.03-21.37.25:856][705]LogActor: Warning: EnemyBP_C /Engine/Transient.World_2:PersistentLevel.EnemyBP_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.12.03-21.38.22:100][169]LogEditorTransaction: Undo Edit Y
+[2017.12.03-21.38.34:959][516]BlueprintLog: New page: Compile EnemyBP
+[2017.12.03-21.38.34:974][516]LogActor: Warning: EnemyBP_C /Engine/Transient.World_2:PersistentLevel.EnemyBP_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.12.03-21.40.02:643][313]Candidate modules for hot reload:
+[2017.12.03-21.40.02:644][313]  MySa
+[2017.12.03-21.40.02:644][313]Launching UnrealBuildTool... [D:/Trabalho/Unreal/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe MySa -ModuleWithSuffix MySa 3810 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcelo/Desktop/Paulo/MySA/MySa.uproject" ]
+[2017.12.03-21.40.02:646][313]Warning: Starting HotReload took  0.0s.
+[2017.12.03-21.40.16:851][569]CompilerResultsLog: New page: Compilation - Dec 3, 2017, 5:40:16 PM
+[2017.12.03-21.40.16:852][569]CompilerResultsLog: Compiling game modules for hot reload
+[2017.12.03-21.40.16:852][569]CompilerResultsLog: Parsing headers for MySaEditor
+[2017.12.03-21.40.16:852][569]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Marcelo\Desktop\Paulo\MySA\MySa.uproject" "C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\MySaEditor\Development\MySaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.12.03-21.40.16:852][569]CompilerResultsLog: Reflection code generated for MySaEditor in 7.29432 seconds
+[2017.12.03-21.40.16:852][569]CompilerResultsLog: Performing 3 actions (12 in parallel)
+[2017.12.03-21.40.16:852][569]CompilerResultsLog: Enemy.cpp
+[2017.12.03-21.40.16:852][569]CompilerResultsLog: [2/3] Link UE4Editor-MySa-3810.dll
+[2017.12.03-21.40.16:852][569]CompilerResultsLog: [3/3] Link UE4Editor-MySa-3810.lib
+[2017.12.03-21.40.16:852][569]CompilerResultsLog:    Creating library C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MySa-3810.lib and object C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MySa-3810.exp
+[2017.12.03-21.40.16:852][569]CompilerResultsLog:    Creating library C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MySa-3810.suppressed.lib and object C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MySa-3810.suppressed.exp
+[2017.12.03-21.40.16:852][569]CompilerResultsLog: Total build time: 13.97 seconds (Local executor: 2.94 seconds)
+[2017.12.03-21.40.16:852][569]LogMainFrame: MainFrame: Module compiling took 14.212 seconds
+[2017.12.03-21.40.16:948][569]LogHotReload: Re-instancing Enemy after hot-reload.
+[2017.12.03-21.40.16:963][569]LogActor: Warning: EnemyBP_C /Engine/Transient.World_2:PersistentLevel.EnemyBP_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.12.03-21.40.17:188][569]LogHotReload: Re-instancing FloorPiece after hot-reload.
+[2017.12.03-21.40.17:287][569]LogHotReload: Re-instancing MyChar after hot-reload.
+[2017.12.03-21.40.17:513][569]LogContentBrowser: Native class hierarchy updated for 'MySa' in 0.0021 seconds. Added 5 classes and 2 folders.
+[2017.12.03-21.40.17:516][569]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2017.12.03-21.40.17:771][569]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2393 classes and 506 folders.
+[2017.12.03-21.40.17:772][569]Display: HotReload took 15.1s.
+[2017.12.03-21.46.47:036][344]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainGame' took 0.059
+[2017.12.03-21.46.47:037][344]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/EnemyBP] ([1] browsable assets)...
+[2017.12.03-21.46.47:037][344]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/EnemyBP]
+[2017.12.03-21.46.47:037][344]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/EnemyBP" FILE="C:/Users/Marcelo/Desktop/Paulo/MySA/Saved/Autosaves/Game/Blueprints/EnemyBP_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.12.03-21.46.47:053][344]LogSavePackage: Save=14.29ms
+[2017.12.03-21.46.47:053][344]LogSavePackage: Moving 'C:/Users/Marcelo/Desktop/Paulo/MySA/Saved/EnemyBP_Auto16773E6AD4B4B61E32D8172A16AF64CA2.tmp' to 'C:/Users/Marcelo/Desktop/Paulo/MySA/Saved/Autosaves/Game/Blueprints/EnemyBP_Auto1.uasset'
+[2017.12.03-21.46.47:055][344]LogSavePackage: Display: Finished SavePackage C:/Users/Marcelo/Desktop/Paulo/MySA/Saved/Autosaves/Game/Blueprints/EnemyBP_Auto1.uasset
+[2017.12.03-21.46.47:055][344]LogFileHelpers: Auto-saving content packages took 0.019
+[2017.12.03-22.20.29:308][401]Candidate modules for hot reload:
+[2017.12.03-22.20.29:308][401]  MySa
+[2017.12.03-22.20.29:309][401]Launching UnrealBuildTool... [D:/Trabalho/Unreal/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe MySa -ModuleWithSuffix MySa 634 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcelo/Desktop/Paulo/MySA/MySa.uproject" ]
+[2017.12.03-22.20.29:311][401]Warning: Starting HotReload took  0.1s.
+[2017.12.03-22.20.35:867][621]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MySa
+[2017.12.03-22.20.35:867][621]LogTemp: CWD: D:\Trabalho\Unreal\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.12.03-22.20.35:867][621]LogTemp: Initial Dir: D:\Trabalho\Unreal\UE_4.17
+[2017.12.03-22.20.35:867][621]LogTemp: Env CWD: D:\Trabalho\Unreal\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.12.03-22.20.35:867][621]LogTemp: BranchPath = DESKTOP-UNL8M6G/D/Trabalho/Unreal/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-UNL8M6G/D/Trabalho/Unreal/UE_4.17/Engine/Binaries
+[2017.12.03-22.20.35:867][621]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Marcelo\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.12.03-22.21.00:836][615]CompilerResultsLog: New page: Compilation - Dec 3, 2017, 6:21:00 PM
+[2017.12.03-22.21.00:836][615]CompilerResultsLog: Compiling game modules for hot reload
+[2017.12.03-22.21.00:836][615]CompilerResultsLog: Parsing headers for MySaEditor
+[2017.12.03-22.21.00:836][615]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Marcelo\Desktop\Paulo\MySA\MySa.uproject" "C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\MySaEditor\Development\MySaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.12.03-22.21.00:836][615]CompilerResultsLog: Reflection code generated for MySaEditor in 7.5587602 seconds
+[2017.12.03-22.21.00:836][615]CompilerResultsLog: Performing 10 actions (12 in parallel)
+[2017.12.03-22.21.00:836][615]CompilerResultsLog: MySa.init.gen.cpp
+[2017.12.03-22.21.00:836][615]CompilerResultsLog: FloorPiece.gen.cpp
+[2017.12.03-22.21.00:836][615]CompilerResultsLog: Enemy.cpp
+[2017.12.03-22.21.00:836][615]CompilerResultsLog: Enemy.gen.cpp
+[2017.12.03-22.21.00:836][615]CompilerResultsLog: FloorPiece.cpp
+[2017.12.03-22.21.00:836][615]CompilerResultsLog: MyChar.cpp
+[2017.12.03-22.21.00:836][615]CompilerResultsLog: MyChar.gen.cpp
+[2017.12.03-22.21.00:836][615]CompilerResultsLog: FloorManager.cpp
+[2017.12.03-22.21.00:836][615]CompilerResultsLog: Error: D:\Trabalho\Unreal\UE_4.17\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(55) : error C2027: use of undefined type 'AEnemy'
+[2017.12.03-22.21.00:836][615]CompilerResultsLog: Error: c:\users\marcelo\desktop\paulo\mysa\source\mysa\FloorPiece.h(71) : note: see declaration of 'AEnemy'
+[2017.12.03-22.21.00:836][615]CompilerResultsLog: Error: D:\Trabalho\Unreal\UE_4.17\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(54) : note: while compiling class template member function 'UClass *TSubclassOf<AEnemy>::operator *(void) const'
+[2017.12.03-22.21.00:836][615]CompilerResultsLog: Error: D:\Trabalho\Unreal\UE_4.17\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(77) : note: see reference to function template instantiation 'UClass *TSubclassOf<AEnemy>::operator *(void) const' being compiled
+[2017.12.03-22.21.00:836][615]CompilerResultsLog: Error: c:\users\marcelo\desktop\paulo\mysa\source\mysa\FloorPiece.h(71) : note: see reference to class template instantiation 'TSubclassOf<AEnemy>' being compiled
+[2017.12.03-22.21.00:836][615]CompilerResultsLog: Error: D:\Trabalho\Unreal\UE_4.17\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(55) : error C3861: 'StaticClass': identifier not found
+[2017.12.03-22.21.00:837][615]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\Marcelo\Desktop\Paulo\MySA\Binaries\Win64\UE4Editor-MySa-634.dll
+[2017.12.03-22.21.00:837][615]CompilerResultsLog: Total build time: 31.33 seconds (Local executor: 0.00 seconds)
+[2017.12.03-22.21.00:837][615]LogMainFrame: MainFrame: Module compiling took 31.531 seconds
+[2017.12.03-22.21.00:837][615]Warning: HotReload failed, recompile failed
+[2017.12.03-22.21.07:952][191]LogVSAccessor: Warning: Couldn't goto line number '71' in 'c:\users\marcelo\desktop\paulo\mysa\source\mysa\FloorPiece.h'
+[2017.12.03-22.21.28:234][543]Candidate modules for hot reload:
+[2017.12.03-22.21.28:234][543]  MySa
+[2017.12.03-22.21.28:235][543]Launching UnrealBuildTool... [D:/Trabalho/Unreal/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe MySa -ModuleWithSuffix MySa 7321 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcelo/Desktop/Paulo/MySA/MySa.uproject" ]
+[2017.12.03-22.21.28:237][543]Warning: Starting HotReload took  0.0s.
+[2017.12.03-22.21.34:279][ 49]LogVSAccessor: Warning: Couldn't goto line number '71' in 'c:\users\marcelo\desktop\paulo\mysa\source\mysa\FloorPiece.h'
+[2017.12.03-22.21.41:713][134]CompilerResultsLog: New page: Compilation - Dec 3, 2017, 6:21:41 PM
+[2017.12.03-22.21.41:713][134]CompilerResultsLog: Compiling game modules for hot reload
+[2017.12.03-22.21.41:713][134]CompilerResultsLog: Parsing headers for MySaEditor
+[2017.12.03-22.21.41:713][134]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Marcelo\Desktop\Paulo\MySA\MySa.uproject" "C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\MySaEditor\Development\MySaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.12.03-22.21.41:713][134]CompilerResultsLog: Reflection code generated for MySaEditor in 7.2439622 seconds
+[2017.12.03-22.21.41:713][134]CompilerResultsLog: Performing 5 actions (12 in parallel)
+[2017.12.03-22.21.41:713][134]CompilerResultsLog: FloorPiece.cpp
+[2017.12.03-22.21.41:713][134]CompilerResultsLog: FloorPiece.gen.cpp
+[2017.12.03-22.21.41:713][134]CompilerResultsLog: FloorManager.cpp
+[2017.12.03-22.21.41:713][134]CompilerResultsLog: Error: D:\Trabalho\Unreal\UE_4.17\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(55) : error C2027: use of undefined type 'AEnemy'
+[2017.12.03-22.21.41:713][134]CompilerResultsLog: Error: c:\users\marcelo\desktop\paulo\mysa\source\mysa\FloorPiece.h(71) : note: see declaration of 'AEnemy'
+[2017.12.03-22.21.41:713][134]CompilerResultsLog: Error: D:\Trabalho\Unreal\UE_4.17\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(54) : note: while compiling class template member function 'UClass *TSubclassOf<AEnemy>::operator *(void) const'
+[2017.12.03-22.21.41:713][134]CompilerResultsLog: Error: D:\Trabalho\Unreal\UE_4.17\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(77) : note: see reference to function template instantiation 'UClass *TSubclassOf<AEnemy>::operator *(void) const' being compiled
+[2017.12.03-22.21.41:713][134]CompilerResultsLog: Error: c:\users\marcelo\desktop\paulo\mysa\source\mysa\FloorPiece.h(71) : note: see reference to class template instantiation 'TSubclassOf<AEnemy>' being compiled
+[2017.12.03-22.21.41:713][134]CompilerResultsLog: Error: D:\Trabalho\Unreal\UE_4.17\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(55) : error C3861: 'StaticClass': identifier not found
+[2017.12.03-22.21.41:713][134]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\Marcelo\Desktop\Paulo\MySA\Binaries\Win64\UE4Editor-MySa-7321.dll
+[2017.12.03-22.21.41:713][134]CompilerResultsLog: Total build time: 12.99 seconds (Local executor: 0.00 seconds)
+[2017.12.03-22.21.41:713][134]LogMainFrame: MainFrame: Module compiling took 13.482 seconds
+[2017.12.03-22.21.41:713][134]Warning: HotReload failed, recompile failed
+[2017.12.03-22.22.32:759][412]Candidate modules for hot reload:
+[2017.12.03-22.22.32:759][412]  MySa
+[2017.12.03-22.22.32:759][412]Launching UnrealBuildTool... [D:/Trabalho/Unreal/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe MySa -ModuleWithSuffix MySa 410 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcelo/Desktop/Paulo/MySA/MySa.uproject" ]
+[2017.12.03-22.22.32:762][412]Warning: Starting HotReload took  0.0s.
+[2017.12.03-22.22.46:002][552]CompilerResultsLog: New page: Compilation - Dec 3, 2017, 6:22:46 PM
+[2017.12.03-22.22.46:002][552]CompilerResultsLog: Compiling game modules for hot reload
+[2017.12.03-22.22.46:002][552]CompilerResultsLog: Parsing headers for MySaEditor
+[2017.12.03-22.22.46:002][552]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Marcelo\Desktop\Paulo\MySA\MySa.uproject" "C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\MySaEditor\Development\MySaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.12.03-22.22.46:002][552]CompilerResultsLog: Reflection code generated for MySaEditor in 7.1079554 seconds
+[2017.12.03-22.22.46:002][552]CompilerResultsLog: Performing 6 actions (12 in parallel)
+[2017.12.03-22.22.46:002][552]CompilerResultsLog: FloorPiece.gen.cpp
+[2017.12.03-22.22.46:002][552]CompilerResultsLog: FloorPiece.cpp
+[2017.12.03-22.22.46:002][552]CompilerResultsLog: FloorManager.cpp
+[2017.12.03-22.22.46:002][552]CompilerResultsLog: MySa.init.gen.cpp
+[2017.12.03-22.22.46:002][552]CompilerResultsLog: Error: D:\Trabalho\Unreal\UE_4.17\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(55) : error C2027: use of undefined type 'AEnemy'
+[2017.12.03-22.22.46:002][552]CompilerResultsLog: Error: c:\users\marcelo\desktop\paulo\mysa\source\mysa\FloorPiece.h(71) : note: see declaration of 'AEnemy'
+[2017.12.03-22.22.46:002][552]CompilerResultsLog: Error: D:\Trabalho\Unreal\UE_4.17\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(54) : note: while compiling class template member function 'UClass *TSubclassOf<AEnemy>::operator *(void) const'
+[2017.12.03-22.22.46:002][552]CompilerResultsLog: Error: D:\Trabalho\Unreal\UE_4.17\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(77) : note: see reference to function template instantiation 'UClass *TSubclassOf<AEnemy>::operator *(void) const' being compiled
+[2017.12.03-22.22.46:002][552]CompilerResultsLog: Error: c:\users\marcelo\desktop\paulo\mysa\source\mysa\FloorPiece.h(71) : note: see reference to class template instantiation 'TSubclassOf<AEnemy>' being compiled
+[2017.12.03-22.22.46:002][552]CompilerResultsLog: Error: D:\Trabalho\Unreal\UE_4.17\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(55) : error C3861: 'StaticClass': identifier not found
+[2017.12.03-22.22.46:002][552]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\Marcelo\Desktop\Paulo\MySA\Binaries\Win64\UE4Editor-MySa-410.dll
+[2017.12.03-22.22.46:002][552]CompilerResultsLog: Total build time: 12.89 seconds (Local executor: 0.00 seconds)
+[2017.12.03-22.22.46:002][552]LogMainFrame: MainFrame: Module compiling took 13.247 seconds
+[2017.12.03-22.22.46:002][552]Warning: HotReload failed, recompile failed
+[2017.12.03-22.23.09:159][893]Candidate modules for hot reload:
+[2017.12.03-22.23.09:159][893]  MySa
+[2017.12.03-22.23.09:159][893]Launching UnrealBuildTool... [D:/Trabalho/Unreal/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe MySa -ModuleWithSuffix MySa 2062 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcelo/Desktop/Paulo/MySA/MySa.uproject" ]
+[2017.12.03-22.23.09:162][893]Warning: Starting HotReload took  0.0s.
+[2017.12.03-22.23.23:647][675]CompilerResultsLog: New page: Compilation - Dec 3, 2017, 6:23:23 PM
+[2017.12.03-22.23.23:647][675]CompilerResultsLog: Compiling game modules for hot reload
+[2017.12.03-22.23.23:647][675]CompilerResultsLog: Parsing headers for MySaEditor
+[2017.12.03-22.23.23:647][675]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Marcelo\Desktop\Paulo\MySA\MySa.uproject" "C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\MySaEditor\Development\MySaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.12.03-22.23.23:647][675]CompilerResultsLog: Reflection code generated for MySaEditor in 7.5155263 seconds
+[2017.12.03-22.23.23:647][675]CompilerResultsLog: Performing 3 actions (12 in parallel)
+[2017.12.03-22.23.23:647][675]CompilerResultsLog: FloorPiece.cpp
+[2017.12.03-22.23.23:647][675]CompilerResultsLog: [2/3] Link UE4Editor-MySa-2062.dll
+[2017.12.03-22.23.23:647][675]CompilerResultsLog: [3/3] Link UE4Editor-MySa-2062.lib
+[2017.12.03-22.23.23:647][675]CompilerResultsLog:    Creating library C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MySa-2062.lib and object C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MySa-2062.exp
+[2017.12.03-22.23.23:647][675]CompilerResultsLog:    Creating library C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MySa-2062.suppressed.lib and object C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MySa-2062.suppressed.exp
+[2017.12.03-22.23.23:647][675]CompilerResultsLog: Total build time: 14.29 seconds (Local executor: 3.15 seconds)
+[2017.12.03-22.23.23:647][675]LogMainFrame: MainFrame: Module compiling took 14.496 seconds
+[2017.12.03-22.23.23:753][675]LogClass: Could not find existing class Enemy in package /Script/MySa for HotReload, assuming new class
+[2017.12.03-22.23.23:753][675]LogClass: Function OnOverlapBegin is new.
+[2017.12.03-22.23.23:755][675]LogClass: Could not find existing class FloorPiece in package /Script/MySa for HotReload, assuming new class
+[2017.12.03-22.23.23:755][675]LogClass: Function GetNextTileTransform is new.
+[2017.12.03-22.23.23:755][675]LogClass: Function OnOverlapBegin is new.
+[2017.12.03-22.23.23:762][675]LogHotReload: Re-instancing Enemy after hot-reload.
+[2017.12.03-22.23.23:766][675]LogActor: Warning: EnemyBP_C /Engine/Transient.World_2:PersistentLevel.EnemyBP_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.12.03-22.23.24:042][675]LogHotReload: Re-instancing FloorPiece after hot-reload.
+[2017.12.03-22.23.24:160][675]LogHotReload: Re-instancing MyChar after hot-reload.
+[2017.12.03-22.23.24:443][675]LogContentBrowser: Native class hierarchy updated for 'MySa' in 0.0021 seconds. Added 5 classes and 2 folders.
+[2017.12.03-22.23.24:446][675]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.12.03-22.23.24:699][675]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2393 classes and 506 folders.
+[2017.12.03-22.23.24:699][675]Display: HotReload took 15.6s.
+[2017.12.03-22.23.28:911][925]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.03-22.23.29:027][925]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainGame.MainGame:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainGame.MainGame:PersistentLevel.MainGame' with GeneratedClass '/Game/Maps/MainGame.MainGame_C' with ClassGeneratedBy '/Game/Maps/MainGame.MainGame:PersistentLevel.MainGame'
+[2017.12.03-22.23.29:043][925]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.03-22.23.29:044][925]PIE: New page: PIE session: MainGame (Dec 3, 2017, 6:23:29 PM)
+[2017.12.03-22.23.29:044][925]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainGame
+[2017.12.03-22.23.29:045][925]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001069s)
+[2017.12.03-22.23.29:045][925]LogAIModule: Creating AISystem for world MainGame
+[2017.12.03-22.23.29:046][925]LogPlayLevel: PIE: World Init took: (0.000674s)
+[2017.12.03-22.23.29:046][925]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainGame.MainGame to /Game/Maps/UEDPIE_0_MainGame.MainGame (0.001965s)
+[2017.12.03-22.23.29:112][925]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.03-22.23.29:124][925]LogInit: FAudioDevice initialized.
+[2017.12.03-22.23.29:164][925]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/MySa.MySaGameMode'
+[2017.12.03-22.23.29:164][925]LogLoad: Game class is 'GameModeBase'
+[2017.12.03-22.23.29:166][925]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainGame.MainGame up for play (max tick rate 0) at 2017.12.03-20.23.29
+[2017.12.03-22.23.29:166][925]LogWorld: Bringing up level for play took: 0.000846
+[2017.12.03-22.23.29:206][925]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0020 seconds. Added 11 classes and 0 folders.
+[2017.12.03-22.23.29:209][925]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainGame 0.743
+[2017.12.03-22.23.29:210][925]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainGame.MainGame:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainGame.MainGame:PersistentLevel.MainGame' with GeneratedClass '/Game/Maps/MainGame.MainGame_C' with ClassGeneratedBy '/Game/Maps/MainGame.MainGame:PersistentLevel.MainGame'
+[2017.12.03-22.23.34:290][471]LogTemp: Warning: Else
+[2017.12.03-22.23.39:356][ 79]LogTemp: Warning: Else
+[2017.12.03-22.23.40:990][275]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainGame.MainGame:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainGame.MainGame:PersistentLevel.MainGame' with GeneratedClass '/Game/Maps/MainGame.MainGame_C' with ClassGeneratedBy '/Game/Maps/MainGame.MainGame:PersistentLevel.MainGame'
+[2017.12.03-22.23.41:023][275]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainGame.MainGame:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainGame.MainGame:PersistentLevel.MainGame' with GeneratedClass '/Game/Maps/MainGame.MainGame_C' with ClassGeneratedBy '/Game/Maps/MainGame.MainGame:PersistentLevel.MainGame'
+[2017.12.03-22.23.54:563][520]Candidate modules for hot reload:
+[2017.12.03-22.23.54:563][520]  MySa
+[2017.12.03-22.23.54:563][520]Launching UnrealBuildTool... [D:/Trabalho/Unreal/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe MySa -ModuleWithSuffix MySa 6084 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcelo/Desktop/Paulo/MySA/MySa.uproject" ]
+[2017.12.03-22.23.54:566][520]Warning: Starting HotReload took  0.0s.
+[2017.12.03-22.24.25:692][373]CompilerResultsLog: New page: Compilation - Dec 3, 2017, 6:24:25 PM
+[2017.12.03-22.24.25:692][373]CompilerResultsLog: Compiling game modules for hot reload
+[2017.12.03-22.24.25:692][373]CompilerResultsLog: Parsing headers for MySaEditor
+[2017.12.03-22.24.25:692][373]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Marcelo\Desktop\Paulo\MySA\MySa.uproject" "C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\MySaEditor\Development\MySaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.12.03-22.24.25:692][373]CompilerResultsLog: Reflection code generated for MySaEditor in 7.4912913 seconds
+[2017.12.03-22.24.25:692][373]CompilerResultsLog: Performing 3 actions (12 in parallel)
+[2017.12.03-22.24.25:692][373]CompilerResultsLog: MyChar.cpp
+[2017.12.03-22.24.25:692][373]CompilerResultsLog: [2/3] Link UE4Editor-MySa-6084.dll
+[2017.12.03-22.24.25:692][373]CompilerResultsLog: [3/3] Link UE4Editor-MySa-6084.lib
+[2017.12.03-22.24.25:693][373]CompilerResultsLog:    Creating library C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MySa-6084.lib and object C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MySa-6084.exp
+[2017.12.03-22.24.25:693][373]CompilerResultsLog:    Creating library C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MySa-6084.suppressed.lib and object C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MySa-6084.suppressed.exp
+[2017.12.03-22.24.25:693][373]CompilerResultsLog: Total build time: 30.93 seconds (Local executor: 19.80 seconds)
+[2017.12.03-22.24.25:693][373]LogMainFrame: MainFrame: Module compiling took 31.133 seconds

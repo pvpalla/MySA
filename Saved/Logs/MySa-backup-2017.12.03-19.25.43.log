@@ -1,0 +1,756 @@
+﻿Log file open, 12/03/17 17:53:09
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: MySa
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1774454612) SRandInit(-1774454612).
+LogTaskGraph: Started task graph with 5 named threads and 26 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.341517
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Warning: Incompatible or missing module: UE4Editor-MySa.dll
+Running D:/Trabalho/Unreal/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe MySa Development Win64 -project="C:/Users/Marcelo/Desktop/Paulo/MySA/MySa.uproject" -editorrecompile -progress -NoHotReloadFromIDE
+Performing full C++ include scan (building a new target)
+Creating makefile for MySa (no existing makefile)
+@progress push 5%
+Parsing headers for MySaEditor
+  Running UnrealHeaderTool "C:\Users\Marcelo\Desktop\Paulo\MySA\MySa.uproject" "C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\MySaEditor\Development\MySaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for MySaEditor in 7.6524749 seconds
+@progress pop
+Performing 18 actions (12 in parallel)
+[2/18] Resource PCLaunch.rc
+[3/18] Resource ModuleVersionResource.rc.inl
+SharedPCH.Engine.cpp
+FloorPiece.cpp
+FloorManager.cpp
+Enemy.gen.cpp
+FloorManager.gen.cpp
+MyChar.cpp
+MySa.cpp
+FloorPiece.gen.cpp
+Enemy.cpp
+MyStructPirata.cpp
+MySa.init.gen.cpp
+MySaGameModeBase.cpp
+MyChar.gen.cpp
+MySaGameModeBase.gen.cpp
+[17/18] Link UE4Editor-MySa.dll
+[18/18] Link UE4Editor-MySa.lib
+   Creating library C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MySa.lib and object C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MySa.exp
+   Creating library C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MySa.suppressed.lib and object C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MySa.suppressed.exp
+Total build time: 84.84 seconds (Local executor: 41.93 seconds)
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: D:/Trabalho/Unreal/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.03-19.54.38:783][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.03-19.54.38:783][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.03-19.54.38:792][  0]LogInit: Computer: DESKTOP-UNL8M6G
+[2017.12.03-19.54.38:792][  0]LogInit: User: Marcelo
+[2017.12.03-19.54.38:792][  0]LogInit: CPU Page size=4096, Cores=8
+[2017.12.03-19.54.38:792][  0]LogInit: High frequency timer resolution =3.808589 MHz
+[2017.12.03-19.54.38:793][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.12.03-19.54.38:793][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.03-19.54.38:793][  0]LogMemory: Process Physical Memory: 284.30 MB used, 284.30 MB peak
+[2017.12.03-19.54.38:793][  0]LogMemory: Process Virtual Memory: 281.71 MB used, 281.71 MB peak
+[2017.12.03-19.54.38:793][  0]LogMemory: Physical Memory: 4813.50 MB used,  11517.30 MB free, 16330.80 MB total
+[2017.12.03-19.54.38:793][  0]LogMemory: Virtual Memory: 769.41 MB used,  11517.30 MB free, 134217728.00 MB total
+[2017.12.03-19.54.38:902][  0]LogInit: Using OS detected language (en-US).
+[2017.12.03-19.54.38:902][  0]LogInit: Using OS detected locale (en-US).
+[2017.12.03-19.54.38:904][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.12.03-19.54.39:480][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.03-19.54.39:539][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.12.03-19.54.39:539][  0]LogD3D11RHI:       8096/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.12.03-19.54.39:541][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.03-19.54.39:541][  0]LogD3D11RHI:       0/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.03-19.54.39:541][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.03-19.54.39:547][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.03-19.54.39:547][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.03-19.54.39:547][  0]LogWindows: EnumDisplayDevices:
+[2017.12.03-19.54.39:547][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.12.03-19.54.39:548][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.12.03-19.54.39:548][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.12.03-19.54.39:548][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.12.03-19.54.39:548][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.12.03-19.54.39:548][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.12.03-19.54.39:548][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.12.03-19.54.39:548][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.12.03-19.54.39:548][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.03-19.54.39:580][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.03-19.54.39:635][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.03-19.54.39:684][  0]LogShaderCompilers: Guid format shader working directory is 13 characters bigger than the processId version (C:/Users/Marcelo/Desktop/Paulo/MySA/Intermediate/Shaders/WorkingDirectory/4760/).
+[2017.12.03-19.54.39:684][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Marcelo/AppData/Local/Temp/UnrealShaderWorkingDir/A83082DD45663AA5051172B2B3D6C4C3/'.
+[2017.12.03-19.54.39:684][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.03-19.54.40:428][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.03-19.54.40:468][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.03-19.54.40:507][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.03-19.54.40:546][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.03-19.54.40:586][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.03-19.54.40:626][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.03-19.54.40:665][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.03-19.54.40:704][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.03-19.54.40:736][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.03-19.54.40:775][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.03-19.54.40:814][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.03-19.54.40:852][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.03-19.54.40:890][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.03-19.54.40:930][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.03-19.54.40:968][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.03-19.54.41:045][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.03-19.54.41:045][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.03-19.54.41:072][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.03-19.54.41:146][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.03-19.54.41:170][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.03-19.54.41:208][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.03-19.54.41:247][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.03-19.54.41:285][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.03-19.54.41:324][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.03-19.54.41:324][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.03-19.54.41:659][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.03-19.54.41:738][  0]LogDerivedDataCache: Loaded boot cache 0.08s 93MB C:/Users/Marcelo/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.03-19.54.41:738][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Marcelo/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.12.03-19.54.41:738][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Marcelo/Desktop/Paulo/MySA/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.03-19.54.41:738][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.03-19.54.41:738][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Marcelo/Desktop/Paulo/MySA/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.03-19.54.41:738][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.03-19.54.41:755][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.03-19.54.41:767][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Marcelo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.03-19.54.41:776][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.03-19.54.41:777][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.03-19.54.41:777][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.03-19.54.41:777][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.03-19.54.42:019][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
+[2017.12.03-19.54.42:123][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.03-19.54.42:228][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.03-19.54.42:441][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.03-19.54.42:469][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.03-19.54.42:469][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.03-19.54.42:469][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.03-19.54.42:469][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.03-19.54.42:469][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.03-19.54.42:744][  0]LogNetVersion: MySa , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2735720228)
+[2017.12.03-19.54.42:911][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.042024 seconds
+[2017.12.03-19.54.42:917][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.12.03-19.54.42:917][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.12.03-19.54.42:917][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.03-19.54.42:959][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.03-19.54.44:872][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.03-19.54.44:911][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.03-19.54.45:397][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.03-19.54.45:677][  0]SourceControl: Source control is disabled
+[2017.12.03-19.54.45:677][  0]SourceControl: Source control is disabled
+[2017.12.03-19.54.45:710][  0]SourceControl: Source control is disabled
+[2017.12.03-19.54.45:741][  0]SourceControl: Source control is disabled
+[2017.12.03-19.54.46:129][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.03-19.54.46:299][  0]LogOcInput: OculusInput pre-init called
+[2017.12.03-19.54.46:483][  0]LogEngine: Initializing Engine...
+[2017.12.03-19.54.46:485][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.03-19.54.46:656][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.03-19.54.46:656][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.03-19.54.46:746][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.03-19.54.46:752][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.03-19.54.46:768][  0]LogInit: FAudioDevice initialized.
+[2017.12.03-19.54.46:853][  0]LogDerivedDataCache: Saved boot cache 0.08s 93MB C:/Users/Marcelo/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.03-19.54.46:866][  0]LogInit: Texture streaming: Enabled
+[2017.12.03-19.54.46:942][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.03-19.54.47:096][  0]LogInit: Transaction tracking system initialized
+[2017.12.03-19.54.47:308][  0]BlueprintLog: New page: Editor Load
+[2017.12.03-19.54.47:916][  0]LocalizationService: Localization service is disabled
+[2017.12.03-19.54.48:437][  0]LogConsoleResponse: Display: 
+[2017.12.03-19.54.48:565][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.03-19.54.48:565][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.03-19.54.48:565][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.03-19.54.49:288][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcelo/Desktop/Paulo/MySA/Content/' took 0.01s
+[2017.12.03-19.54.49:288][  0]SourceControl: Source control is disabled
+[2017.12.03-19.54.49:289][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 D:/Trabalho/Unreal/UE_4.17/FeaturePacks/MobileStarterContent.upack)
+[2017.12.03-19.54.49:302][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2017.12.03-19.54.49:325][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Floor_400x400.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Architecture/Floor_400x400.uasset"
+[2017.12.03-19.54.49:349][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Pillar_50x500.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Architecture/Pillar_50x500.uasset"
+[2017.12.03-19.54.49:357][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_400x200.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Architecture/Wall_400x200.uasset"
+[2017.12.03-19.54.49:371][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_400x300.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Architecture/Wall_400x300.uasset"
+[2017.12.03-19.54.49:391][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_400x400.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Architecture/Wall_400x400.uasset"
+[2017.12.03-19.54.49:401][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_500x500.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Architecture/Wall_500x500.uasset"
+[2017.12.03-19.54.49:407][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_Door_400x300.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Architecture/Wall_Door_400x300.uasset"
+[2017.12.03-19.54.49:431][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_Door_400x400.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Architecture/Wall_Door_400x400.uasset"
+[2017.12.03-19.54.49:438][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_Window_400x300.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Architecture/Wall_Window_400x300.uasset"
+[2017.12.03-19.54.49:450][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_Window_400x400.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Architecture/Wall_Window_400x400.uasset"
+[2017.12.03-19.54.49:459][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Collapse01.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Audio/Collapse01.uasset"
+[2017.12.03-19.54.49:467][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Collapse02.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Audio/Collapse02.uasset"
+[2017.12.03-19.54.49:471][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Collapse_Cue.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Audio/Collapse_Cue.uasset"
+[2017.12.03-19.54.49:490][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Explosion01.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Audio/Explosion01.uasset"
+[2017.12.03-19.54.49:498][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Explosion02.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Audio/Explosion02.uasset"
+[2017.12.03-19.54.49:504][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Explosion_Cue.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Audio/Explosion_Cue.uasset"
+[2017.12.03-19.54.49:530][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Fire01.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Audio/Fire01.uasset"
+[2017.12.03-19.54.49:542][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Fire01_Cue.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Audio/Fire01_Cue.uasset"
+[2017.12.03-19.54.49:551][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Fire_Sparks01.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Audio/Fire_Sparks01.uasset"
+[2017.12.03-19.54.49:555][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Fire_Sparks01_Cue.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2017.12.03-19.54.49:563][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Light01.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Audio/Light01.uasset"
+[2017.12.03-19.54.49:567][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Light01_Cue.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Audio/Light01_Cue.uasset"
+[2017.12.03-19.54.49:582][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Light02.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Audio/Light02.uasset"
+[2017.12.03-19.54.49:586][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Light02_Cue.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Audio/Light02_Cue.uasset"
+[2017.12.03-19.54.49:595][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Smoke01.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Audio/Smoke01.uasset"
+[2017.12.03-19.54.49:599][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Smoke01_Cue.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Audio/Smoke01_Cue.uasset"
+[2017.12.03-19.54.49:606][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Background_Cue.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Audio/Starter_Background_Cue.uasset"
+[2017.12.03-19.54.49:637][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Birds01.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Audio/Starter_Birds01.uasset"
+[2017.12.03-19.54.49:709][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Music01.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Audio/Starter_Music01.uasset"
+[2017.12.03-19.54.49:725][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Music_Cue.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Audio/Starter_Music_Cue.uasset"
+[2017.12.03-19.54.49:754][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Wind05.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Audio/Starter_Wind05.uasset"
+[2017.12.03-19.54.49:778][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Wind06.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Audio/Starter_Wind06.uasset"
+[2017.12.03-19.54.49:804][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Steam01.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Audio/Steam01.uasset"
+[2017.12.03-19.54.49:808][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Steam01_Cue.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Audio/Steam01_Cue.uasset"
+[2017.12.03-19.54.49:822][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2017.12.03-19.54.49:837][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2017.12.03-19.54.49:854][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2017.12.03-19.54.49:873][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2017.12.03-19.54.49:880][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2017.12.03-19.54.49:891][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_WallSconce.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2017.12.03-19.54.49:915][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Maps/Minimal_Default.umap" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Maps/Minimal_Default.umap"
+[2017.12.03-19.54.49:933][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Maps/Minimal_Default_BuiltData.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2017.12.03-19.54.49:996][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Maps/StarterMap.umap" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Maps/StarterMap.umap"
+[2017.12.03-19.54.50:073][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Maps/StarterMap_BuiltData.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Maps/StarterMap_BuiltData.uasset"
+[2017.12.03-19.54.50:088][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Basic_Floor.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Basic_Floor.uasset"
+[2017.12.03-19.54.50:096][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Basic_Wall.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Basic_Wall.uasset"
+[2017.12.03-19.54.50:113][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2017.12.03-19.54.50:124][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Brick_Clay_New.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Brick_Clay_New.uasset"
+[2017.12.03-19.54.50:131][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Brick_Clay_Old.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2017.12.03-19.54.50:146][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Brick_Cut_Stone.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2017.12.03-19.54.50:153][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2017.12.03-19.54.50:160][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2017.12.03-19.54.50:167][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_CobbleStone_Pebble.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2017.12.03-19.54.50:174][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_CobbleStone_Rough.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2017.12.03-19.54.50:186][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_CobbleStone_Smooth.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2017.12.03-19.54.50:193][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Concrete_Grime.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Concrete_Grime.uasset"
+[2017.12.03-19.54.50:200][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Concrete_Panels.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Concrete_Panels.uasset"
+[2017.12.03-19.54.50:210][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Concrete_Poured.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Concrete_Poured.uasset"
+[2017.12.03-19.54.50:217][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Concrete_Tiles.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Concrete_Tiles.uasset"
+[2017.12.03-19.54.50:227][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Glass.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Glass.uasset"
+[2017.12.03-19.54.50:234][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Ground_Grass.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Ground_Grass.uasset"
+[2017.12.03-19.54.50:243][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Ground_Gravel.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Ground_Gravel.uasset"
+[2017.12.03-19.54.50:261][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Ground_Moss.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Ground_Moss.uasset"
+[2017.12.03-19.54.50:267][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2017.12.03-19.54.50:285][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2017.12.03-19.54.50:291][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Chrome.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Metal_Chrome.uasset"
+[2017.12.03-19.54.50:298][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Copper.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Metal_Copper.uasset"
+[2017.12.03-19.54.50:316][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Gold.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Metal_Gold.uasset"
+[2017.12.03-19.54.50:324][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Rust.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Metal_Rust.uasset"
+[2017.12.03-19.54.50:331][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Steel.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Metal_Steel.uasset"
+[2017.12.03-19.54.50:339][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Rock_Basalt.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Rock_Basalt.uasset"
+[2017.12.03-19.54.50:346][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Rock_Marble_Polished.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2017.12.03-19.54.50:352][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Rock_Sandstone.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Rock_Sandstone.uasset"
+[2017.12.03-19.54.50:360][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Rock_Slate.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Rock_Slate.uasset"
+[2017.12.03-19.54.50:367][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Tech_Checker_Dot.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2017.12.03-19.54.50:376][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Tech_Hex_Tile.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2017.12.03-19.54.50:382][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2017.12.03-19.54.50:389][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Tech_Panel.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Tech_Panel.uasset"
+[2017.12.03-19.54.50:399][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Water_Lake.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Water_Lake.uasset"
+[2017.12.03-19.54.50:406][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Water_Ocean.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Water_Ocean.uasset"
+[2017.12.03-19.54.50:413][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2017.12.03-19.54.50:431][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2017.12.03-19.54.50:439][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Wood_Oak.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Wood_Oak.uasset"
+[2017.12.03-19.54.50:449][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Wood_Pine.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Wood_Pine.uasset"
+[2017.12.03-19.54.50:462][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Wood_Walnut.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Materials/M_Wood_Walnut.uasset"
+[2017.12.03-19.54.50:468][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/P_Ambient_Dust.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Particles/P_Ambient_Dust.uasset"
+[2017.12.03-19.54.50:476][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/P_Explosion.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Particles/P_Explosion.uasset"
+[2017.12.03-19.54.50:484][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/P_Fire.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Particles/P_Fire.uasset"
+[2017.12.03-19.54.50:500][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/P_Smoke.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Particles/P_Smoke.uasset"
+[2017.12.03-19.54.50:508][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/P_Sparks.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Particles/P_Sparks.uasset"
+[2017.12.03-19.54.50:520][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_Burst.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Particles/Materials/M_Burst.uasset"
+[2017.12.03-19.54.50:539][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_Dust_Particle.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2017.12.03-19.54.50:545][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_explosion_subUV.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2017.12.03-19.54.50:558][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2017.12.03-19.54.50:574][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/m_flare_01.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Particles/Materials/m_flare_01.uasset"
+[2017.12.03-19.54.50:581][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2017.12.03-19.54.50:592][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_radial_ramp.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2017.12.03-19.54.50:599][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_smoke_subUV.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2017.12.03-19.54.50:605][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_Spark.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Particles/Materials/M_Spark.uasset"
+[2017.12.03-19.54.50:613][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/MaterialSphere.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Props/MaterialSphere.uasset"
+[2017.12.03-19.54.50:630][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Bush.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Props/SM_Bush.uasset"
+[2017.12.03-19.54.50:637][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Chair.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Props/SM_Chair.uasset"
+[2017.12.03-19.54.50:652][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_CornerFrame.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Props/SM_CornerFrame.uasset"
+[2017.12.03-19.54.50:660][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Couch.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Props/SM_Couch.uasset"
+[2017.12.03-19.54.50:667][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Door.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Props/SM_Door.uasset"
+[2017.12.03-19.54.50:674][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_DoorFrame.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Props/SM_DoorFrame.uasset"
+[2017.12.03-19.54.50:681][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_GlassWindow.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Props/SM_GlassWindow.uasset"
+[2017.12.03-19.54.50:689][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Lamp_Ceiling.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2017.12.03-19.54.50:696][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Lamp_Wall.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Props/SM_Lamp_Wall.uasset"
+[2017.12.03-19.54.50:729][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_MatPreviewMesh_02.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2017.12.03-19.54.50:746][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_PillarFrame.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Props/SM_PillarFrame.uasset"
+[2017.12.03-19.54.50:753][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_PillarFrame300.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Props/SM_PillarFrame300.uasset"
+[2017.12.03-19.54.50:760][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Rock.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Props/SM_Rock.uasset"
+[2017.12.03-19.54.50:777][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Shelf.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Props/SM_Shelf.uasset"
+[2017.12.03-19.54.50:784][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Stairs.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Props/SM_Stairs.uasset"
+[2017.12.03-19.54.50:801][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Statue.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Props/SM_Statue.uasset"
+[2017.12.03-19.54.50:815][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_TableRound.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Props/SM_TableRound.uasset"
+[2017.12.03-19.54.50:830][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_WindowFrame.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Props/SM_WindowFrame.uasset"
+[2017.12.03-19.54.50:842][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Bush.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Props/Materials/M_Bush.uasset"
+[2017.12.03-19.54.50:858][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Chair.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Props/Materials/M_Chair.uasset"
+[2017.12.03-19.54.50:865][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Door.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Props/Materials/M_Door.uasset"
+[2017.12.03-19.54.50:871][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Frame.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Props/Materials/M_Frame.uasset"
+[2017.12.03-19.54.50:879][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Lamp.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Props/Materials/M_Lamp.uasset"
+[2017.12.03-19.54.50:885][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_MaterialSphere.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2017.12.03-19.54.50:893][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2017.12.03-19.54.50:899][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Rock.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Props/Materials/M_Rock.uasset"
+[2017.12.03-19.54.50:917][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Shelf.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Props/Materials/M_Shelf.uasset"
+[2017.12.03-19.54.50:924][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Statue.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Props/Materials/M_Statue.uasset"
+[2017.12.03-19.54.50:931][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_StatueGlass.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Props/Materials/M_StatueGlass.uasset"
+[2017.12.03-19.54.50:938][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_TableRound.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Props/Materials/M_TableRound.uasset"
+[2017.12.03-19.54.50:947][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Cone.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Shapes/Shape_Cone.uasset"
+[2017.12.03-19.54.50:964][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Cube.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Shapes/Shape_Cube.uasset"
+[2017.12.03-19.54.50:971][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Cylinder.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Shapes/Shape_Cylinder.uasset"
+[2017.12.03-19.54.50:979][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_NarrowCapsule.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2017.12.03-19.54.50:985][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Pipe.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Shapes/Shape_Pipe.uasset"
+[2017.12.03-19.54.50:993][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Pipe_180.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Shapes/Shape_Pipe_180.uasset"
+[2017.12.03-19.54.51:001][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Pipe_90.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Shapes/Shape_Pipe_90.uasset"
+[2017.12.03-19.54.51:008][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Plane.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Shapes/Shape_Plane.uasset"
+[2017.12.03-19.54.51:015][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_QuadPyramid.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2017.12.03-19.54.51:022][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Sphere.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Shapes/Shape_Sphere.uasset"
+[2017.12.03-19.54.51:036][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Torus.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Shapes/Shape_Torus.uasset"
+[2017.12.03-19.54.51:053][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Trim.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Shapes/Shape_Trim.uasset"
+[2017.12.03-19.54.51:059][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Trim_90_In.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2017.12.03-19.54.51:069][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Trim_90_Out.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2017.12.03-19.54.51:077][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_TriPyramid.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Shapes/Shape_TriPyramid.uasset"
+[2017.12.03-19.54.51:096][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Tube.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Shapes/Shape_Tube.uasset"
+[2017.12.03-19.54.51:103][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Wedge_A.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Shapes/Shape_Wedge_A.uasset"
+[2017.12.03-19.54.51:110][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Wedge_B.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Shapes/Shape_Wedge_B.uasset"
+[2017.12.03-19.54.51:117][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_WideCapsule.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Shapes/Shape_WideCapsule.uasset"
+[2017.12.03-19.54.51:129][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2017.12.03-19.54.51:153][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2017.12.03-19.54.51:181][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2017.12.03-19.54.51:207][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_New_D.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2017.12.03-19.54.51:238][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_New_M.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2017.12.03-19.54.51:262][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_New_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2017.12.03-19.54.51:298][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2017.12.03-19.54.51:322][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2017.12.03-19.54.51:360][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2017.12.03-19.54.51:392][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2017.12.03-19.54.51:416][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2017.12.03-19.54.51:441][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2017.12.03-19.54.51:476][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2017.12.03-19.54.51:492][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Burst_M.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Burst_M.uasset"
+[2017.12.03-19.54.51:501][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Bush_D.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Bush_D.uasset"
+[2017.12.03-19.54.51:516][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Bush_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Bush_N.uasset"
+[2017.12.03-19.54.51:531][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ceramic_Tile_M.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2017.12.03-19.54.51:538][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ceramic_Tile_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2017.12.03-19.54.51:559][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Chair_M.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Chair_M.uasset"
+[2017.12.03-19.54.51:595][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Chair_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Chair_N.uasset"
+[2017.12.03-19.54.51:603][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Checker_Noise_M.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Checker_Noise_M.uasset"
+[2017.12.03-19.54.51:641][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2017.12.03-19.54.51:664][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2017.12.03-19.54.51:700][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2017.12.03-19.54.51:720][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2017.12.03-19.54.51:729][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2017.12.03-19.54.51:750][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2017.12.03-19.54.51:774][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2017.12.03-19.54.51:804][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2017.12.03-19.54.51:837][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Grime_D.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2017.12.03-19.54.51:863][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Panels_D.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2017.12.03-19.54.51:887][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Panels_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2017.12.03-19.54.51:922][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Poured_D.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2017.12.03-19.54.51:937][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Poured_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2017.12.03-19.54.51:976][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Tiles_D.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2017.12.03-19.54.52:001][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Tiles_M.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2017.12.03-19.54.52:027][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Tiles_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2017.12.03-19.54.52:044][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2017.12.03-19.54.52:068][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Detail_Rocky_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2017.12.03-19.54.52:086][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Door_M.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Door_M.uasset"
+[2017.12.03-19.54.52:101][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Door_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Door_N.uasset"
+[2017.12.03-19.54.52:112][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Dust_Particle_D.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Dust_Particle_D.uasset"
+[2017.12.03-19.54.52:133][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Explosion_SubUV.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Explosion_SubUV.uasset"
+[2017.12.03-19.54.52:146][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Fire_SubUV.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Fire_SubUV.uasset"
+[2017.12.03-19.54.52:153][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Fire_Tiled_D.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2017.12.03-19.54.52:172][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Frame_M.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Frame_M.uasset"
+[2017.12.03-19.54.52:180][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Frame_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Frame_N.uasset"
+[2017.12.03-19.54.52:191][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Gradinet_01.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Gradinet_01.uasset"
+[2017.12.03-19.54.52:224][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ground_Grass_D.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Ground_Grass_D.uasset"
+[2017.12.03-19.54.52:257][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ground_Grass_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Ground_Grass_N.uasset"
+[2017.12.03-19.54.52:288][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ground_Gravel_D.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2017.12.03-19.54.52:314][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ground_Gravel_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2017.12.03-19.54.52:350][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_ground_Moss_D.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_ground_Moss_D.uasset"
+[2017.12.03-19.54.52:381][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ground_Moss_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Ground_Moss_N.uasset"
+[2017.12.03-19.54.52:407][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Lamp_M.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Lamp_M.uasset"
+[2017.12.03-19.54.52:444][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Lamp_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Lamp_N.uasset"
+[2017.12.03-19.54.52:489][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_MacroVariation.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_MacroVariation.uasset"
+[2017.12.03-19.54.52:517][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Aluminum_D.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2017.12.03-19.54.52:546][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Copper_D.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Metal_Copper_D.uasset"
+[2017.12.03-19.54.52:583][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Gold_D.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Metal_Gold_D.uasset"
+[2017.12.03-19.54.52:601][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Gold_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Metal_Gold_N.uasset"
+[2017.12.03-19.54.52:631][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Rust_D.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Metal_Rust_D.uasset"
+[2017.12.03-19.54.52:644][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Rust_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Metal_Rust_N.uasset"
+[2017.12.03-19.54.52:665][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Steel_D.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Metal_Steel_D.uasset"
+[2017.12.03-19.54.52:694][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Steel_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Metal_Steel_N.uasset"
+[2017.12.03-19.54.52:718][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Perlin_Noise_M.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2017.12.03-19.54.52:735][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_RockMesh_M.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_RockMesh_M.uasset"
+[2017.12.03-19.54.52:756][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_RockMesh_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_RockMesh_N.uasset"
+[2017.12.03-19.54.52:784][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Basalt_D.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2017.12.03-19.54.52:811][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Basalt_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2017.12.03-19.54.52:835][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2017.12.03-19.54.52:863][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Sandstone_D.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2017.12.03-19.54.52:890][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Sandstone_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2017.12.03-19.54.52:920][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Slate_D.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Rock_Slate_D.uasset"
+[2017.12.03-19.54.52:936][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Slate_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Rock_Slate_N.uasset"
+[2017.12.03-19.54.52:968][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2017.12.03-19.54.52:989][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Shelf_M.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Shelf_M.uasset"
+[2017.12.03-19.54.53:002][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Shelf_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Shelf_N.uasset"
+[2017.12.03-19.54.53:034][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Single_Tile_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Single_Tile_N.uasset"
+[2017.12.03-19.54.53:043][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Smoke_SubUV.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Smoke_SubUV.uasset"
+[2017.12.03-19.54.53:053][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Smoke_Tiled_D.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2017.12.03-19.54.53:060][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Spark_Core.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Spark_Core.uasset"
+[2017.12.03-19.54.53:067][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Statue_M.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Statue_M.uasset"
+[2017.12.03-19.54.53:081][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Statue_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Statue_N.uasset"
+[2017.12.03-19.54.53:101][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_TableRound_M.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_TableRound_M.uasset"
+[2017.12.03-19.54.53:110][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_TableRound_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_TableRound_N.uasset"
+[2017.12.03-19.54.53:116][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Dot_M.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Tech_Dot_M.uasset"
+[2017.12.03-19.54.53:125][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Dot_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Tech_Dot_N.uasset"
+[2017.12.03-19.54.53:145][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2017.12.03-19.54.53:160][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2017.12.03-19.54.53:168][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Panel_M.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Tech_Panel_M.uasset"
+[2017.12.03-19.54.53:177][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Panel_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Tech_Panel_N.uasset"
+[2017.12.03-19.54.53:188][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Water_M.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Water_M.uasset"
+[2017.12.03-19.54.53:196][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Water_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Water_N.uasset"
+[2017.12.03-19.54.53:219][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2017.12.03-19.54.53:237][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2017.12.03-19.54.53:254][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2017.12.03-19.54.53:286][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Oak_D.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Wood_Oak_D.uasset"
+[2017.12.03-19.54.53:304][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Oak_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Wood_Oak_N.uasset"
+[2017.12.03-19.54.53:332][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Pine_D.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Wood_Pine_D.uasset"
+[2017.12.03-19.54.53:353][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Pine_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Wood_Pine_N.uasset"
+[2017.12.03-19.54.53:380][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Walnut_D.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2017.12.03-19.54.53:401][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Walnut_N.uasset" to "C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2017.12.03-19.54.53:430][  0]LogStaticMesh: Building static mesh Floor_400x400...
+[2017.12.03-19.54.53:431][  0]LogStaticMesh: Built static mesh [0.00s] /Game/MobileStarterContent/Architecture/Floor_400x400.Floor_400x400
+[2017.12.03-19.54.53:486][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2017.12.03-19.54.53:578][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MobileStarterContent/Architecture/Floor_400x400" FILE="C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Architecture/Floor_400x400.uasset" SILENT=true
+[2017.12.03-19.54.53:598][  0]LogSavePackage: Save=13.49ms
+[2017.12.03-19.54.53:598][  0]LogSavePackage: Moving 'C:/Users/Marcelo/Desktop/Paulo/MySA/Saved/Floor_400x4005A7D1DE44EB5C9EC90A14CB42134ECA6.tmp' to 'C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Architecture/Floor_400x400.uasset'
+[2017.12.03-19.54.53:603][  0]LogSavePackage: Display: Finished SavePackage C:/Users/Marcelo/Desktop/Paulo/MySA/Content/MobileStarterContent/Architecture/Floor_400x400.uasset
+[2017.12.03-19.54.53:603][  0]LogFeaturePack: Warning: Inserted 1 feature packs
+[2017.12.03-19.54.53:607][  0]Cmd: MAP LOAD FILE="C:/Users/Marcelo/Desktop/Paulo/MySA/Content/Maps/MainGame.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.03-19.54.53:607][  0]LightingResults: New page: Lighting Build
+[2017.12.03-19.54.53:635][  0]MapCheck: New page: Map Check
+[2017.12.03-19.54.53:635][  0]LightingResults: New page: Lighting Build
+[2017.12.03-19.54.53:693][  0]LogProperty: Warning: Serialized Class /Script/Engine.BlueprintGeneratedClass for a property of Class /Script/MySa.FloorPiece. Reference will be nullptred.
+    Property = ObjectProperty /Script/MySa.FloorPiece:NextPiece
+    Item = BlueprintGeneratedClass /Game/Blueprints/FloorPieces/ObstacleFloor3.ObstacleFloor3_C
+[2017.12.03-19.54.53:697][  0]LogProperty: Warning: Serialized Class /Script/Engine.BlueprintGeneratedClass for a property of Class /Script/MySa.FloorPiece. Reference will be nullptred.
+    Property = ObjectProperty /Script/MySa.FloorPiece:NextPiece
+    Item = BlueprintGeneratedClass /Game/Blueprints/FloorPieces/ObstacleFloor2.ObstacleFloor2_C
+[2017.12.03-19.54.53:734][  0]LogTexture: Display: Building textures: FloorSheet (BGRA8, 288X192)
+[2017.12.03-19.54.53:734][  0]LogTexture: Display: Building textures: BOB (BGRA8, 128X96)
+[2017.12.03-19.54.53:735][  0]LogAIModule: Creating AISystem for world MainGame
+[2017.12.03-19.54.53:737][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.03-19.54.53:762][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.03-19.54.53:799][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 36.986ms to complete.
+[2017.12.03-19.54.53:799][  0]LogFileHelpers: Loading map 'MainGame' took 0.192
+[2017.12.03-19.54.53:853][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.03-19.54.53:921][  0]LogCollectionManager: Loaded 0 collections in 0.000793 seconds
+[2017.12.03-19.54.53:985][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcelo/Desktop/Paulo/MySA/Saved/Collections/' took 0.01s
+[2017.12.03-19.54.53:985][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcelo/Desktop/Paulo/MySA/Content/Developers/Marcelo/Collections/' took 0.01s
+[2017.12.03-19.54.53:985][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcelo/Desktop/Paulo/MySA/Content/Collections/' took 0.01s
+[2017.12.03-19.54.53:985][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.12.03-19.54.53:996][  0]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2391 classes and 502 folders.
+[2017.12.03-19.54.54:040][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0020 seconds. Added 0 classes and 0 folders.
+[2017.12.03-19.54.54:075][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0019 seconds. Added 0 classes and 0 folders.
+[2017.12.03-19.54.54:108][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0020 seconds. Added 1 classes and 2 folders.
+[2017.12.03-19.54.54:126][  0]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.03-19.54.54:128][  0]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.03-19.54.54:133][  0]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.03-19.54.54:181][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.12.03-19.54.54:207][  0]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.03-19.54.54:341][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0020 seconds. Added 1 classes and 2 folders.
+[2017.12.03-19.54.54:342][  0]LogLoad: (Engine Initialization) Total time: 106.45 seconds
+[2017.12.03-19.54.54:342][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.03-19.54.54:342][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.12.03-19.54.54:373][  0]LogAssetRegistry: Asset discovery search completed in 12.3761 seconds
+[2017.12.03-19.54.54:375][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.12.03-19.54.54:375][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000077 seconds (updated 0 objects)
+[2017.12.03-19.54.54:447][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.03-19.55.02:452][765]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.03-19.55.02:464][765]Running D:/Trabalho/Unreal/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/Marcelo/Desktop/Paulo/MySA/MySa.uproject" -game -rocket -progress
+[2017.12.03-19.55.02:666][765]Discovering modules, targets and source code for project...
+[2017.12.03-19.55.04:975][765]LogSlate: Took 0.000236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.03-20.01.55:852][674]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.03-20.01.55:852][674]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.03-20.01.59:704][133]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.03-20.01.59:777][133]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainGame.MainGame:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainGame.MainGame:PersistentLevel.MainGame' with GeneratedClass '/Game/Maps/MainGame.MainGame_C' with ClassGeneratedBy '/Game/Maps/MainGame.MainGame:PersistentLevel.MainGame'
+[2017.12.03-20.01.59:777][133]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.03-20.01.59:777][133]PIE: New page: PIE session: MainGame (Dec 3, 2017, 4:01:59 PM)
+[2017.12.03-20.01.59:777][133]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainGame
+[2017.12.03-20.01.59:779][133]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001259s)
+[2017.12.03-20.01.59:779][133]LogAIModule: Creating AISystem for world MainGame
+[2017.12.03-20.01.59:779][133]LogPlayLevel: PIE: World Init took: (0.000651s)
+[2017.12.03-20.01.59:779][133]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainGame.MainGame to /Game/Maps/UEDPIE_0_MainGame.MainGame (0.002158s)
+[2017.12.03-20.01.59:806][133]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.03-20.01.59:817][133]LogInit: FAudioDevice initialized.
+[2017.12.03-20.01.59:859][133]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/MySa.MySaGameMode'
+[2017.12.03-20.01.59:859][133]LogLoad: Game class is 'GameModeBase'
+[2017.12.03-20.01.59:861][133]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainGame.MainGame up for play (max tick rate 0) at 2017.12.03-18.01.59
+[2017.12.03-20.01.59:861][133]LogWorld: Bringing up level for play took: 0.001012
+[2017.12.03-20.01.59:917][133]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0021 seconds. Added 11 classes and 0 folders.
+[2017.12.03-20.01.59:921][133]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainGame -0.545
+[2017.12.03-20.01.59:921][133]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainGame.MainGame:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainGame.MainGame:PersistentLevel.MainGame' with GeneratedClass '/Game/Maps/MainGame.MainGame_C' with ClassGeneratedBy '/Game/Maps/MainGame.MainGame:PersistentLevel.MainGame'
+[2017.12.03-20.02.05:249][771]LogTemp: Warning: Else
+[2017.12.03-20.02.11:401][509]LogTemp: Warning: Else
+[2017.12.03-20.02.16:751][151]LogTemp: Warning: Else
+[2017.12.03-20.02.21:526][724]LogTemp: Warning: Else
+[2017.12.03-20.02.25:793][236]LogTemp: Warning: Else
+[2017.12.03-20.02.29:676][702]LogTemp: Warning: Else
+[2017.12.03-20.02.33:243][130]LogTemp: Warning: Else
+[2017.12.03-20.02.36:543][526]LogTemp: Warning: Else
+[2017.12.03-20.02.39:602][893]LogTemp: Warning: Else
+[2017.12.03-20.02.42:443][234]LogTemp: Warning: Else
+[2017.12.03-20.02.45:110][554]LogTemp: Warning: Else
+[2017.12.03-20.02.45:835][641]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainGame.MainGame:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainGame.MainGame:PersistentLevel.MainGame' with GeneratedClass '/Game/Maps/MainGame.MainGame_C' with ClassGeneratedBy '/Game/Maps/MainGame.MainGame:PersistentLevel.MainGame'
+[2017.12.03-20.02.45:868][641]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainGame.MainGame:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainGame.MainGame:PersistentLevel.MainGame' with GeneratedClass '/Game/Maps/MainGame.MainGame_C' with ClassGeneratedBy '/Game/Maps/MainGame.MainGame:PersistentLevel.MainGame'
+[2017.12.03-20.07.51:331][219]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.03-20.07.51:344][219]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainGame.MainGame:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainGame.MainGame:PersistentLevel.MainGame' with GeneratedClass '/Game/Maps/MainGame.MainGame_C' with ClassGeneratedBy '/Game/Maps/MainGame.MainGame:PersistentLevel.MainGame'
+[2017.12.03-20.07.51:344][219]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.03-20.07.51:344][219]PIE: New page: PIE session: MainGame (Dec 3, 2017, 4:07:51 PM)
+[2017.12.03-20.07.51:344][219]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainGame
+[2017.12.03-20.07.51:346][219]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001180s)
+[2017.12.03-20.07.51:346][219]LogAIModule: Creating AISystem for world MainGame
+[2017.12.03-20.07.51:346][219]LogPlayLevel: PIE: World Init took: (0.000752s)
+[2017.12.03-20.07.51:347][219]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainGame.MainGame to /Game/Maps/UEDPIE_0_MainGame.MainGame (0.002175s)
+[2017.12.03-20.07.51:374][219]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.03-20.07.51:385][219]LogInit: FAudioDevice initialized.
+[2017.12.03-20.07.51:417][219]LogLoad: Game class is 'GameModeBase'
+[2017.12.03-20.07.51:419][219]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainGame.MainGame up for play (max tick rate 0) at 2017.12.03-18.07.51
+[2017.12.03-20.07.51:419][219]LogWorld: Bringing up level for play took: 0.000820
+[2017.12.03-20.07.51:422][219]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainGame 0.956
+[2017.12.03-20.07.51:423][219]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainGame.MainGame:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainGame.MainGame:PersistentLevel.MainGame' with GeneratedClass '/Game/Maps/MainGame.MainGame_C' with ClassGeneratedBy '/Game/Maps/MainGame.MainGame:PersistentLevel.MainGame'
+[2017.12.03-20.07.56:876][873]LogTemp: Warning: Else
+[2017.12.03-20.08.02:977][605]LogTemp: Warning: Else
+[2017.12.03-20.08.08:310][245]LogTemp: Warning: Else
+[2017.12.03-20.08.13:052][814]LogTemp: Warning: Else
+[2017.12.03-20.08.13:353][850]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainGame.MainGame:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainGame.MainGame:PersistentLevel.MainGame' with GeneratedClass '/Game/Maps/MainGame.MainGame_C' with ClassGeneratedBy '/Game/Maps/MainGame.MainGame:PersistentLevel.MainGame'
+[2017.12.03-20.08.13:383][850]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainGame.MainGame:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainGame.MainGame:PersistentLevel.MainGame' with GeneratedClass '/Game/Maps/MainGame.MainGame_C' with ClassGeneratedBy '/Game/Maps/MainGame.MainGame:PersistentLevel.MainGame'
+[2017.12.03-21.16.23:820][246]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.03-21.16.23:820][246]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.03-21.18.42:554][ 19]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Marcelo\Desktop\Paulo\Untitled-1.png)
+[2017.12.03-21.18.42:557][ 19]LogTexture: Display: Building textures: Untitled-1 (BGRA8, 33X73)
+[2017.12.03-21.18.42:565][ 19]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Marcelo\Desktop\Paulo\Obstacle.png)
+[2017.12.03-21.18.42:568][ 19]LogTexture: Display: Building textures: Obstacle (BGRA8, 37X31)
+[2017.12.03-21.18.46:379][305]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0021 seconds. Added 1 classes and 2 folders.
+[2017.12.03-21.18.58:311][521]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ImportedContent/Obstacle" FILE="C:/Users/Marcelo/Desktop/Paulo/MySA/Content/ImportedContent/Obstacle.uasset" SILENT=true
+[2017.12.03-21.18.58:318][521]LogSavePackage: Save=5.24ms
+[2017.12.03-21.18.58:318][521]LogSavePackage: Moving 'C:/Users/Marcelo/Desktop/Paulo/MySA/Saved/Obstacle0FD5C728441B428D6FA5A1A59F5D41F5.tmp' to 'C:/Users/Marcelo/Desktop/Paulo/MySA/Content/ImportedContent/Obstacle.uasset'
+[2017.12.03-21.18.58:324][521]LogSavePackage: Display: Finished SavePackage C:/Users/Marcelo/Desktop/Paulo/MySA/Content/ImportedContent/Obstacle.uasset
+[2017.12.03-21.19.18:567][746]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ImportedContent/Untitled-1" FILE="C:/Users/Marcelo/Desktop/Paulo/MySA/Content/ImportedContent/Untitled-1.uasset" SILENT=true
+[2017.12.03-21.19.18:574][746]LogSavePackage: Save=5.56ms
+[2017.12.03-21.19.18:574][746]LogSavePackage: Moving 'C:/Users/Marcelo/Desktop/Paulo/MySA/Saved/Untitled-100A8BFE849D03BB041E47E8592FF3D25.tmp' to 'C:/Users/Marcelo/Desktop/Paulo/MySA/Content/ImportedContent/Untitled-1.uasset'
+[2017.12.03-21.19.18:577][746]LogSavePackage: Display: Finished SavePackage C:/Users/Marcelo/Desktop/Paulo/MySA/Content/ImportedContent/Untitled-1.uasset
+[2017.12.03-21.20.35:639][149]LogSlate: Took 0.013761 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.03-21.20.43:389][541]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0024 seconds. Added 113 classes and 0 folders.
+[2017.12.03-21.20.44:134][541]LogActor: Warning: EnemyBP_C /Engine/Transient.World_1:PersistentLevel.EnemyBP_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.12.03-21.20.44:207][542]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:1).
+[2017.12.03-21.20.46:770][807]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.03-21.21.08:421][178]Candidate modules for hot reload:
+[2017.12.03-21.21.08:421][178]  MySa
+[2017.12.03-21.21.08:421][178]Launching UnrealBuildTool... [D:/Trabalho/Unreal/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe MySa -ModuleWithSuffix MySa 1710 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcelo/Desktop/Paulo/MySA/MySa.uproject" ]
+[2017.12.03-21.21.08:422][178]Warning: Starting HotReload took  0.0s.
+[2017.12.03-21.21.20:752][525]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MainGame' took 0.039
+[2017.12.03-21.21.20:761][525]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/EnemyBP] ([1] browsable assets)...
+[2017.12.03-21.21.20:761][525]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/EnemyBP]
+[2017.12.03-21.21.20:761][525]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/EnemyBP" FILE="C:/Users/Marcelo/Desktop/Paulo/MySA/Saved/Autosaves/Game/Blueprints/EnemyBP_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.12.03-21.21.20:777][525]LogSavePackage: Save=14.28ms
+[2017.12.03-21.21.20:778][525]LogSavePackage: Moving 'C:/Users/Marcelo/Desktop/Paulo/MySA/Saved/EnemyBP_Auto19DF83C1143D45A00EAEEA38B74F708E1.tmp' to 'C:/Users/Marcelo/Desktop/Paulo/MySA/Saved/Autosaves/Game/Blueprints/EnemyBP_Auto1.uasset'
+[2017.12.03-21.21.20:779][525]LogSavePackage: Display: Finished SavePackage C:/Users/Marcelo/Desktop/Paulo/MySA/Saved/Autosaves/Game/Blueprints/EnemyBP_Auto1.uasset
+[2017.12.03-21.21.20:780][525]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ImportedContent/Obstacle_Sprite] ([1] browsable assets)...
+[2017.12.03-21.21.20:791][525]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/ImportedContent/Obstacle_Sprite.Obstacle_Sprite]
+[2017.12.03-21.21.20:791][525]OBJ SavePackage: Finished generating thumbnails for package [/Game/ImportedContent/Obstacle_Sprite]
+[2017.12.03-21.21.20:801][525]LogSavePackage: Save=7.84ms
+[2017.12.03-21.21.20:801][525]LogSavePackage: Moving 'C:/Users/Marcelo/Desktop/Paulo/MySA/Saved/Obstacle_Sprite_Auto1A827AFAA4A875540C8BD93BB6BAA88FB.tmp' to 'C:/Users/Marcelo/Desktop/Paulo/MySA/Saved/Autosaves/Game/ImportedContent/Obstacle_Sprite_Auto1.uasset'
+[2017.12.03-21.21.20:802][525]LogSavePackage: Display: Finished SavePackage C:/Users/Marcelo/Desktop/Paulo/MySA/Saved/Autosaves/Game/ImportedContent/Obstacle_Sprite_Auto1.uasset
+[2017.12.03-21.21.20:802][525]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ImportedContent/Untitled-1_Sprite] ([1] browsable assets)...
+[2017.12.03-21.21.20:809][525]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/ImportedContent/Untitled-1_Sprite.Untitled-1_Sprite]
+[2017.12.03-21.21.20:809][525]OBJ SavePackage: Finished generating thumbnails for package [/Game/ImportedContent/Untitled-1_Sprite]
+[2017.12.03-21.21.20:819][525]LogSavePackage: Save=7.91ms
+[2017.12.03-21.21.20:819][525]LogSavePackage: Moving 'C:/Users/Marcelo/Desktop/Paulo/MySA/Saved/Untitled-1_Sprite_Auto14BA2838D44B75B08ABC8B89743D34174.tmp' to 'C:/Users/Marcelo/Desktop/Paulo/MySA/Saved/Autosaves/Game/ImportedContent/Untitled-1_Sprite_Auto1.uasset'
+[2017.12.03-21.21.20:820][525]LogSavePackage: Display: Finished SavePackage C:/Users/Marcelo/Desktop/Paulo/MySA/Saved/Autosaves/Game/ImportedContent/Untitled-1_Sprite_Auto1.uasset
+[2017.12.03-21.21.20:820][525]LogFileHelpers: Auto-saving content packages took 0.060
+[2017.12.03-21.21.21:915][556]LogRenderer: Reallocating scene render targets to support 1528x920 Format 10 NumSamples 1 (Frame:1).
+[2017.12.03-21.21.23:501][615]CompilerResultsLog: New page: Compilation - Dec 3, 2017, 5:21:23 PM
+[2017.12.03-21.21.23:501][615]CompilerResultsLog: Performing full C++ include scan (hot reloading a new target)
+[2017.12.03-21.21.23:501][615]CompilerResultsLog: Compiling game modules for hot reload
+[2017.12.03-21.21.23:501][615]CompilerResultsLog: Parsing headers for MySaEditor
+[2017.12.03-21.21.23:501][615]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Marcelo\Desktop\Paulo\MySA\MySa.uproject" "C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\MySaEditor\Development\MySaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.12.03-21.21.23:501][615]CompilerResultsLog: Reflection code generated for MySaEditor in 7.7012284 seconds
+[2017.12.03-21.21.23:501][615]CompilerResultsLog: Performing 5 actions (12 in parallel)
+[2017.12.03-21.21.23:501][615]CompilerResultsLog: Enemy.gen.cpp
+[2017.12.03-21.21.23:501][615]CompilerResultsLog: Enemy.cpp
+[2017.12.03-21.21.23:501][615]CompilerResultsLog: MySa.init.gen.cpp
+[2017.12.03-21.21.23:501][615]CompilerResultsLog: [4/5] Link UE4Editor-MySa-1710.dll
+[2017.12.03-21.21.23:501][615]CompilerResultsLog: [5/5] Link UE4Editor-MySa-1710.lib
+[2017.12.03-21.21.23:501][615]CompilerResultsLog:    Creating library C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MySa-1710.lib and object C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MySa-1710.exp
+[2017.12.03-21.21.23:501][615]CompilerResultsLog:    Creating library C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MySa-1710.suppressed.lib and object C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MySa-1710.suppressed.exp
+[2017.12.03-21.21.23:502][615]CompilerResultsLog: Total build time: 14.79 seconds (Local executor: 2.94 seconds)
+[2017.12.03-21.21.23:502][615]LogMainFrame: MainFrame: Module compiling took 15.084 seconds
+[2017.12.03-21.21.23:587][615]LogClass: Could not find existing class Enemy in package /Script/MySa for HotReload, assuming new class
+[2017.12.03-21.21.23:587][615]LogClass: Function OnOverlapBegin is new.
+[2017.12.03-21.21.23:595][615]LogHotReload: Re-instancing Enemy after hot-reload.
+[2017.12.03-21.21.23:604][615]LogActor: Warning: EnemyBP_C /Engine/Transient.World_1:PersistentLevel.EnemyBP_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.12.03-21.21.23:819][615]LogHotReload: Re-instancing FloorPiece after hot-reload.
+[2017.12.03-21.21.23:921][615]LogHotReload: Re-instancing MyChar after hot-reload.
+[2017.12.03-21.21.24:143][615]LogContentBrowser: Native class hierarchy updated for 'MySa' in 0.0020 seconds. Added 5 classes and 2 folders.
+[2017.12.03-21.21.24:145][615]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2017.12.03-21.21.24:483][615]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 2394 classes and 508 folders.
+[2017.12.03-21.21.24:484][615]Display: HotReload took 16.1s.
+[2017.12.03-21.21.40:674][756]LogSlate: Took 0.004150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.03-21.21.52:472][891]BlueprintLog: New page: Compile EnemyBP
+[2017.12.03-21.21.52:486][891]LogActor: Warning: EnemyBP_C /Engine/Transient.World_1:PersistentLevel.EnemyBP_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.12.03-21.24.04:282][312]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.03-21.24.04:282][312]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.03-21.24.06:302][522]Candidate modules for hot reload:
+[2017.12.03-21.24.06:302][522]  MySa
+[2017.12.03-21.24.06:302][522]Launching UnrealBuildTool... [D:/Trabalho/Unreal/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe MySa -ModuleWithSuffix MySa 1925 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcelo/Desktop/Paulo/MySA/MySa.uproject" ]
+[2017.12.03-21.24.06:304][522]Warning: Starting HotReload took  0.0s.
+[2017.12.03-21.24.20:906][600]CompilerResultsLog: New page: Compilation - Dec 3, 2017, 5:24:20 PM
+[2017.12.03-21.24.20:906][600]CompilerResultsLog: Compiling game modules for hot reload
+[2017.12.03-21.24.20:906][600]CompilerResultsLog: Parsing headers for MySaEditor
+[2017.12.03-21.24.20:906][600]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Marcelo\Desktop\Paulo\MySA\MySa.uproject" "C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\MySaEditor\Development\MySaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.12.03-21.24.20:906][600]CompilerResultsLog: Reflection code generated for MySaEditor in 7.8344476 seconds
+[2017.12.03-21.24.20:906][600]CompilerResultsLog: Performing 5 actions (12 in parallel)
+[2017.12.03-21.24.20:906][600]CompilerResultsLog: Enemy.cpp
+[2017.12.03-21.24.20:906][600]CompilerResultsLog: MySa.init.gen.cpp
+[2017.12.03-21.24.20:906][600]CompilerResultsLog: Enemy.gen.cpp
+[2017.12.03-21.24.20:907][600]CompilerResultsLog: [4/5] Link UE4Editor-MySa-1925.dll
+[2017.12.03-21.24.20:907][600]CompilerResultsLog: [5/5] Link UE4Editor-MySa-1925.lib
+[2017.12.03-21.24.20:907][600]CompilerResultsLog:    Creating library C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MySa-1925.lib and object C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MySa-1925.exp
+[2017.12.03-21.24.20:907][600]CompilerResultsLog:    Creating library C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MySa-1925.suppressed.lib and object C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MySa-1925.suppressed.exp
+[2017.12.03-21.24.20:907][600]CompilerResultsLog: Total build time: 14.41 seconds (Local executor: 2.85 seconds)
+[2017.12.03-21.24.20:907][600]LogMainFrame: MainFrame: Module compiling took 14.608 seconds
+[2017.12.03-21.24.20:998][600]LogClass: Could not find existing class Enemy in package /Script/MySa for HotReload, assuming new class
+[2017.12.03-21.24.20:998][600]LogClass: Function OnOverlapBegin is new.
+[2017.12.03-21.24.21:409][600]LogWindows: Error: === Critical error: ===
+[2017.12.03-21.24.21:409][600]LogWindows: Error: 
+[2017.12.03-21.24.21:409][600]LogWindows: Error: Fatal error!
+[2017.12.03-21.24.21:409][600]LogWindows: Error: 
+[2017.12.03-21.24.21:409][600]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000198
+[2017.12.03-21.24.21:409][600]LogWindows: Error: 
+[2017.12.03-21.24.21:409][600]LogWindows: Error: UE4Editor-Engine.dll!0x000000002428AACF
+[2017.12.03-21.24.21:409][600]LogWindows: Error: UE4Editor-MySa-1925.dll!AEnemy::AEnemy() [c:\users\marcelo\desktop\paulo\mysa\source\mysa\enemy.cpp:25]
+[2017.12.03-21.24.21:409][600]LogWindows: Error: UE4Editor-CoreUObject.dll!0x000000003249A182
+[2017.12.03-21.24.21:409][600]LogWindows: Error: UE4Editor-CoreUObject.dll!0x00000000327033DB
+[2017.12.03-21.24.21:409][600]LogWindows: Error: UE4Editor-CoreUObject.dll!0x00000000326E6E03
+[2017.12.03-21.24.21:409][600]LogWindows: Error: UE4Editor-CoreUObject.dll!0x000000003249BE97
+[2017.12.03-21.24.21:409][600]LogWindows: Error: UE4Editor-Core.dll!0x0000000032A08220
+[2017.12.03-21.24.21:409][600]LogWindows: Error: UE4Editor-Core.dll!0x0000000032C568D0
+[2017.12.03-21.24.21:409][600]LogWindows: Error: UE4Editor-Core.dll!0x0000000032C55BE3
+[2017.12.03-21.24.21:409][600]LogWindows: Error: UE4Editor-HotReload.dll!0x0000000010A5275E
+[2017.12.03-21.24.21:409][600]LogWindows: Error: UE4Editor-HotReload.dll!0x0000000010A4FD54
+[2017.12.03-21.24.21:409][600]LogWindows: Error: UE4Editor-HotReload.dll!0x0000000010A50720
+[2017.12.03-21.24.21:409][600]LogWindows: Error: UE4Editor-HotReload.dll!0x0000000010A62C1B
+[2017.12.03-21.24.21:409][600]LogWindows: Error: UE4Editor-UnrealEd.dll!0x000000002225B19E
+[2017.12.03-21.24.21:409][600]LogWindows: Error: UE4Editor-UnrealEd.dll!0x0000000022AED646
+[2017.12.03-21.24.21:409][600]LogWindows: Error: UE4Editor.exe!0x00000000F6C8534A
+[2017.12.03-21.24.21:409][600]LogWindows: Error: UE4Editor.exe!0x00000000F6C93970
+[2017.12.03-21.24.21:409][600]LogWindows: Error: UE4Editor.exe!0x00000000F6C939EA
+[2017.12.03-21.24.21:409][600]LogWindows: Error: UE4Editor.exe!0x00000000F6CA02D9
+[2017.12.03-21.24.21:409][600]LogWindows: Error: UE4Editor.exe!0x00000000F6CA1C47
+[2017.12.03-21.24.21:409][600]LogWindows: Error: KERNEL32.DLL!0x000000006A631FE4
+[2017.12.03-21.24.21:409][600]LogWindows: Error: ntdll.dll!0x000000006C5AEF91
+[2017.12.03-21.24.21:409][600]LogWindows: Error: ntdll.dll!0x000000006C5AEF91
+[2017.12.03-21.24.21:410][600]LogWindows: Error: 
+[2017.12.03-21.24.21:421][600]LogExit: Executing StaticShutdownAfterError
+[2017.12.03-21.24.21:428][600]LogWindows: FPlatformMisc::RequestExit(1)
+[2017.12.03-21.24.21:429][600]Log file closed, 12/03/17 19:24:21

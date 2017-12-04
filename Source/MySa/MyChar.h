@@ -63,4 +63,14 @@ private:
 	FVector Offset;
 
 	FTimerHandle StartRun;
+
+	FTimerHandle DashTimer;
+
+	void Dash();
+
+	void StopDash();
+
+	bool CanDash;
+
+	void ToGround();
 };

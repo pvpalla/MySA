@@ -44,6 +44,8 @@ public:
 
 private:
 
+	int EnemyAmount;
+
 	UPROPERTY(EditAnywhere, Category = "Mapa")
 		class UPaperTileMapComponent* MyTileMap;
 	
@@ -65,6 +67,10 @@ private:
 	UPROPERTY(EditAnywhere, Category = "NextTile")
 		class AFloorPiece* NextPiece;
 
+	void SpawnObstacle();
+
+	UPROPERTY(EditAnywhere, Category = "Obstacle")
+		TSubclassOf<class AEnemy> Obstacle;
 
 	//UPROPERTY(EditAnywhere, Category = "NextTile")
 

@@ -1,0 +1,26 @@
+﻿  Creating makefile for MySaEditor (ini files are newer than UBTMakefile)
+  Parsing headers for MySaEditor
+    Running UnrealHeaderTool "C:\Users\Marcelo\Desktop\Paulo\MySA\MySa.uproject" "C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\MySaEditor\Development\MySaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for MySaEditor in 7.0989957 seconds
+  Deleting old hot reload file: "C:\Users\Marcelo\Desktop\Paulo\MySA\Binaries\Win64\UE4Editor-MySa-1266.dll".
+  Deleting old hot reload file: "C:\Users\Marcelo\Desktop\Paulo\MySA\Binaries\Win64\UE4Editor-MySa-1266.pdb".
+  Deleting old hot reload file: "C:\Users\Marcelo\Desktop\Paulo\MySA\Binaries\Win64\UE4Editor-MySa-1665.dll".
+  Deleting old hot reload file: "C:\Users\Marcelo\Desktop\Paulo\MySA\Binaries\Win64\UE4Editor-MySa-1665.pdb".
+  Deleting old hot reload file: "C:\Users\Marcelo\Desktop\Paulo\MySA\Binaries\Win64\UE4Editor-MySa-2062.dll".
+  Deleting old hot reload file: "C:\Users\Marcelo\Desktop\Paulo\MySA\Binaries\Win64\UE4Editor-MySa-2062.pdb".
+  Deleting old hot reload file: "C:\Users\Marcelo\Desktop\Paulo\MySA\Binaries\Win64\UE4Editor-MySa-3810.dll".
+  Deleting old hot reload file: "C:\Users\Marcelo\Desktop\Paulo\MySA\Binaries\Win64\UE4Editor-MySa-3810.pdb".
+  Deleting old hot reload file: "C:\Users\Marcelo\Desktop\Paulo\MySA\Binaries\Win64\UE4Editor-MySa-6084.dll".
+  Deleting old hot reload file: "C:\Users\Marcelo\Desktop\Paulo\MySA\Binaries\Win64\UE4Editor-MySa-6084.pdb".
+  Deleting old hot reload file: "C:\Users\Marcelo\Desktop\Paulo\MySA\Binaries\Win64\UE4Editor-MySa-7645.dll".
+  Deleting old hot reload file: "C:\Users\Marcelo\Desktop\Paulo\MySA\Binaries\Win64\UE4Editor-MySa-7645.pdb".
+  Deleting old hot reload file: "C:\Users\Marcelo\Desktop\Paulo\MySA\Binaries\Win64\UE4Editor-MySa-9840.dll".
+  Deleting old hot reload file: "C:\Users\Marcelo\Desktop\Paulo\MySA\Binaries\Win64\UE4Editor-MySa-9840.pdb".
+  Performing 3 actions (12 in parallel)
+  MyChar.cpp
+  [2/3] Link UE4Editor-MySa.dll
+  [3/3] Link UE4Editor-MySa.lib
+     Creating library C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MySa.lib and object C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MySa.exp
+     Creating library C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MySa.suppressed.lib and object C:\Users\Marcelo\Desktop\Paulo\MySA\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MySa.suppressed.exp
+  Deploying MySaEditor Win64 Development...
+  Total build time: 29.30 seconds (Local executor: 17.99 seconds)
